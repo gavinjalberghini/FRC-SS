@@ -21,6 +21,10 @@ team:
 markdown: kramdown
 permalink: pretty
 
+# Minify the compiled CSS to reduce its download size.
+sass:
+  style: compressed
+
 # Navigation is defined in _data/nav.yml
 
 # Files Jekyll should not copy into the build
