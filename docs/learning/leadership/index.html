@@ -1,0 +1,88 @@
+---
+layout: default
+title: Leadership Curriculum
+permalink: /learning/leadership/
+---
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ '/learning/' | relative_url }}">Learning Hub</a> &middot; Leadership</p>
+    <h1>Leadership Curriculum</h1>
+    <p class="lede">
+      A general path for any member growing into a leadership role — on a
+      technical subsystem or a non-technical one. Work through the lessons in
+      order: each one builds on the last, from leading yourself to leading a small
+      team to developing the leaders who come after you.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Roles</h2>
+    <p class="section-intro">
+      Leaders grow through three roles. Each role is earned by completing the
+      lessons labeled for it (and everything before it) and demonstrating the
+      skills with a real team.
+    </p>
+
+    <div class="role-overview">
+      {% for role in site.data.leadership_curriculum.roles %}
+      <div class="role-card">
+        <div class="role-emoji">{{ role.emoji }}</div>
+        <h3><span class="badge badge-{{ role.id }}">{{ role.name }}</span></h3>
+        <p>{{ role.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="wrap">
+    <h2>Lesson roadmap</h2>
+    <p class="section-intro">
+      Lessons are ordered by when they are best learned. The badge on each lesson
+      shows the role it belongs to.
+    </p>
+
+    <div class="roadmap">
+      {% for role in site.data.leadership_curriculum.roles %}
+      <div class="roadmap-group">
+        <h3 class="roadmap-group-title">
+          <span class="badge badge-{{ role.id }}">{{ role.emoji }} {{ role.name }}</span>
+        </h3>
+        {% assign role_lessons = site.data.leadership_curriculum.lessons | where: "role", role.id | sort: "order" %}
+        {% for lesson in role_lessons %}
+        <a class="lesson-row" href="{{ '/learning/leadership/' | append: lesson.slug | append: '/' | relative_url }}">
+          <span class="lesson-num">{{ lesson.order }}</span>
+          <span class="lesson-info">
+            <h4>{{ lesson.title }}</h4>
+            <p>{{ lesson.summary }}</p>
+          </span>
+          <span class="lesson-size">Effort {{ lesson.size }}/3 &middot; {{ lesson.time }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🤝</div>
+      <p>
+        <strong>Leadership is a skill, not a title.</strong> Anyone can practice
+        these habits — you don't need to be a captain to lead a conversation, run
+        a good meeting, or resolve a conflict well.
+      </p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🚧</div>
+      <p>
+        This curriculum is a general framework. Replace the placeholder notes with
+        your team's own leadership structure, norms, and expectations as you
+        develop them.
+      </p>
+    </div>
+  </div>
+</section>

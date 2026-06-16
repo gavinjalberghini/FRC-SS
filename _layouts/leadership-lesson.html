@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign role = site.data.leadership_curriculum.roles | where: "id", page.role | first %}
+<section class="page-hero lesson-hero">
+  <div class="wrap">
+    <p class="eyebrow">
+      <a href="{{ '/learning/leadership/' | relative_url }}">Leadership Curriculum</a>
+      {% if page.order %} &middot; Lesson {{ page.order }}{% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+
+    <div class="lesson-meta">
+      {% if role %}<span class="badge badge-{{ page.role }}">{{ role.emoji }} {{ role.name }}</span>{% endif %}
+      {% if page.size %}<span class="meta-pill">Effort {{ page.size }}/3</span>{% endif %}
+      {% if page.time %}<span class="meta-pill">⏱ {{ page.time }}</span>{% endif %}
+    </div>
+  </div>
+</section>
+
+<article class="page-body">
+  <div class="wrap prose">
+    {{ content }}
+
+    <hr>
+    <p class="lesson-foot">
+      <a href="{{ '/learning/leadership/' | relative_url }}">&larr; Back to the Leadership Curriculum</a>
+    </p>
+  </div>
+</article>

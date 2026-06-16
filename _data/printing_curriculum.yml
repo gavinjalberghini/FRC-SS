@@ -1,0 +1,107 @@
+# 3D Printing curriculum.
+# Built around Bambu Lab printers (X1C, P1S, A1, A1 mini) and Bambu Studio, the
+# slicer the team standardizes on. `roles` define the progression; `lessons` are
+# ordered by when they are best learned and labeled with the role at which they
+# are expected.
+
+roles:
+  - id: operator
+    name: Operator
+    emoji: "🖨️"
+    summary: >-
+      Entry-level role for new members. Learn how FDM printing and the Bambu
+      printers work, choose the right filament, slice a model in Bambu Studio, and
+      run a print from start to finished part — safely.
+  - id: veteran
+    name: Veteran Operator
+    emoji: "🎛️"
+    summary: >-
+      Operators who have shown core competency. Dial in supports and settings, run
+      multi-color prints with the AMS, design parts that print well, and diagnose
+      and recover failed prints.
+  - id: lead
+    name: Lead Operator
+    emoji: "🏭"
+    summary: >-
+      The team's 3D-printing lead. Owns engineering-grade materials, structural
+      printed parts, printer maintenance and calibration, and the print farm —
+      keeping every printer producing competition-legal parts.
+
+lessons:
+  - order: 1
+    slug: fundamentals-safety
+    title: 3D Printing Fundamentals & Safety
+    role: operator
+    size: 1
+    time: "45–60 min"
+    summary: How FDM printing works, the Bambu printer lineup and anatomy, and the safety rules before you print.
+  - order: 2
+    slug: choosing-materials
+    title: Choosing the Right Material
+    role: operator
+    size: 2
+    time: "1–2 hrs"
+    summary: PLA, PETG, ABS/ASA, TPU, and nylon — their properties and how to pick the right one for an FRC part.
+  - order: 3
+    slug: slicing-bambu-studio
+    title: Slicing in Bambu Studio
+    role: operator
+    size: 2
+    time: "1–2 hrs"
+    summary: Import a model, orient it, choose layer height, walls, and infill, and export a print to the printer.
+  - order: 4
+    slug: first-print
+    title: Running Your First Print
+    role: operator
+    size: 2
+    time: "1–2 hrs"
+    summary: Load filament and the AMS, prep the plate, calibrate, start a print, and monitor it to completion.
+  - order: 5
+    slug: post-processing
+    title: Post-Processing & Part Removal
+    role: operator
+    size: 1
+    time: "45–60 min"
+    summary: Remove parts from the plate, take off supports cleanly, and finish a part without damaging it.
+  - order: 6
+    slug: dialing-in-settings
+    title: Dialing In Print Settings
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Supports, brims and rafts, infill patterns, wall count, seams, and the speed-vs-quality trade-off.
+  - order: 7
+    slug: multi-material-ams
+    title: Multi-Color & Multi-Material with the AMS
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Run the AMS for multi-color and multi-material prints, and manage purging, flushing, and combos.
+  - order: 8
+    slug: design-for-printing
+    title: Designing for 3D Printing
+    role: veteran
+    size: 3
+    time: "Multi-session"
+    summary: Orient for strength, set tolerances and clearances, handle overhangs, and add bosses and heat-set inserts.
+  - order: 9
+    slug: troubleshooting
+    title: Troubleshooting Failed Prints
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Read the symptoms of adhesion, warping, stringing, layer shifts, and clogs — and fix the root cause.
+  - order: 10
+    slug: engineering-materials
+    title: Engineering Materials & Advanced Printing
+    role: lead
+    size: 3
+    time: "Multi-session"
+    summary: Carbon-fiber nylon, PC, and other engineering filaments — hardened nozzles, drying, and strong parts.
+  - order: 11
+    slug: maintenance-print-farm
+    title: Maintenance & Print Farm Management
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: Calibration and maintenance routines, firmware, managing multiple printers, and FRC rules on printed parts.

@@ -53,7 +53,14 @@ respected, and able to do their best work.
 - I will maintain the academic eligibility required by my school to participate.
 - I will ask for help early if school workload affects my participation.
 
-## 7. Consequences
+## 7. Decisions & Disagreements
+
+- I will help make decisions at the right level and raise concerns through my lead.
+- I will respect and support decisions made through the team's
+  [decision-making process]({{ '/decision-making/' | relative_url }}), even when I
+  argued for a different outcome.
+
+## 8. Consequences
 
 Members who do not meet these expectations may receive a conversation, a
 documented warning, reduced responsibilities, or removal from the team, depending

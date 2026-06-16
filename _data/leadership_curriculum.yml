@@ -1,0 +1,114 @@
+# Leadership curriculum.
+# A general, role-agnostic path for any member growing into a leadership role on a
+# small team — technical or non-technical. `roles` define the progression;
+# `lessons` are ordered by when they are best learned and labeled with the role at
+# which they are expected.
+
+roles:
+  - id: emerging
+    name: Emerging Leader
+    emoji: "🌱"
+    summary: >-
+      Lead yourself first. Build the communication, collaboration, and feedback
+      habits that make you someone teammates trust — the foundation every other
+      leadership skill is built on.
+  - id: veteran
+    name: Team Leader
+    emoji: "🧭"
+    summary: >-
+      Lead a small group. Run useful meetings, delegate with accountability, set
+      and manage expectations, resolve conflict early, and protect the team's time
+      and focus.
+  - id: lead
+    name: Senior Leader & Mentor
+    emoji: "🤝"
+    summary: >-
+      Lead leaders and shape culture. Make sound decisions under uncertainty,
+      build motivation and psychological safety, mentor the next generation, and
+      plan for succession.
+
+lessons:
+  - order: 1
+    slug: what-leadership-is
+    title: What Leadership Really Is
+    role: emerging
+    size: 1
+    time: "45–60 min"
+    summary: Influence over authority, leading by example, and the difference between a title and trust.
+  - order: 2
+    slug: communication-fundamentals
+    title: Communication Fundamentals
+    role: emerging
+    size: 2
+    time: "1–2 hrs"
+    summary: Active listening, clear and kind messaging, and adapting how you communicate to your audience.
+  - order: 3
+    slug: small-team-collaboration
+    title: Small-Team Collaboration
+    role: emerging
+    size: 2
+    time: "1–2 hrs"
+    summary: Shared goals, clear roles, psychological safety, and the habits that make a small group greater than its parts.
+  - order: 4
+    slug: feedback
+    title: Giving & Receiving Feedback
+    role: emerging
+    size: 2
+    time: "1 hr"
+    summary: Specific, timely, actionable feedback — and how to receive it without getting defensive.
+  - order: 5
+    slug: effective-meetings
+    title: Running Effective Meetings & Standups
+    role: veteran
+    size: 1
+    time: "45–60 min"
+    summary: Agendas, timeboxing, decisions, and standups that keep a small team aligned without wasting time.
+  - order: 6
+    slug: delegation-accountability
+    title: Delegation & Accountability
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Hand off work clearly, match tasks to people, and hold the team accountable without micromanaging.
+  - order: 7
+    slug: managing-expectations
+    title: Managing Expectations
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Scope, deadlines, and stakeholders — making realistic commitments and communicating changes early.
+  - order: 8
+    slug: conflict-resolution
+    title: Conflict Resolution
+    role: veteran
+    size: 3
+    time: "2–3 hrs"
+    summary: Surface tension early, separate people from problems, and turn disagreements into better outcomes.
+  - order: 9
+    slug: time-priority-management
+    title: Time & Priority Management
+    role: veteran
+    size: 2
+    time: "1 hr"
+    summary: Triage what matters, protect focus time, and help the team work on the right things first.
+  - order: 10
+    slug: decision-making
+    title: Decision-Making & Problem-Solving
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Make sound, timely decisions under uncertainty, and involve the right people the right amount.
+  - order: 11
+    slug: team-culture-motivation
+    title: Building Team Culture & Motivation
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Shape norms, recognize good work, and keep a volunteer team motivated through a long season.
+  - order: 12
+    slug: mentorship-succession
+    title: Mentorship & Succession
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: Develop the people under you and leave the team stronger than you found it.

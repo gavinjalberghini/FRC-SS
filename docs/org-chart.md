@@ -2,108 +2,139 @@
 layout: page
 title: Team Org Chart
 eyebrow: How we're organized
-subtitle: Roles, responsibilities, and reporting relationships across the team.
+subtitle: Roles, responsibilities, and how decisions get made across the team.
 permalink: /org-chart/
 ---
 
-Our team is **student-led and mentor-supported**. Students own the work and the
-decisions; mentors coach, ensure safety, and provide continuity. The structure
-below is a starting template — adapt the number of subteams and leads to your size.
+Our team runs on **roles**, not job titles. Every area of the team — each *trade* —
+is something you can learn and get certified in through the
+[Learning Hub]({{ '/learning/' | relative_url }}), and within every trade members
+hold the trade's role at one of three levels — the **role itself** (no
+qualifier), then **Veteran**, then **Lead**. The team is
+**student-driven and mentor-supported**: students do the work and the leads steer
+the season, while adult mentors provide insight, ensure safety, and step in as
+**flex capacity** when a role can't be filled by a student.
 
 <div class="org">
 
+  <p class="org-branch-label">Who steers the team</p>
   <div class="org-level">
     <div class="org-node lead">
-      <h4>Lead Mentor / Coach</h4>
-      <p>Accountable adult, safety, sponsor &amp; school relationships, continuity.</p>
+      <h4>Student Leadership Team</h4>
+      <p>Every trade's Lead, serving as co-captains. They facilitate others' success and help drive team decisions — alongside mentors.</p>
     </div>
-  </div>
-
-  <div class="org-level">
     <div class="org-node lead">
-      <h4>Team Captain(s)</h4>
-      <p>Student leadership. Sets priorities, runs meetings, owns the schedule.</p>
+      <h4>Adult Mentors</h4>
+      <p>Decision insight, safety, training, continuity — and flex capacity to fill any role. Coach, don't do.</p>
     </div>
   </div>
 
-  <p class="org-branch-label">Technical subteams</p>
+  <p class="org-branch-label">Trades — each led by a co-captain, open to everyone</p>
   <div class="org-level">
     <div class="org-node">
-      <h4>Mechanical Lead</h4>
-      <p>Drivetrain, mechanisms, fabrication, assembly.</p>
+      <h4><a href="{{ '/learning/mechanical/' | relative_url }}">Mechanical</a></h4>
+      <p>Fabrication, drivetrain, mechanisms, and assembly.</p>
     </div>
     <div class="org-node">
-      <h4>Electrical Lead</h4>
-      <p>Wiring, power, pneumatics, control system layout.</p>
+      <h4><a href="{{ '/learning/electrical/' | relative_url }}">Electrical</a></h4>
+      <p>Wiring, power, sensors, and pneumatics.</p>
     </div>
     <div class="org-node">
-      <h4>Software Lead</h4>
-      <p>Robot code, autonomous, vision, controls.</p>
+      <h4><a href="{{ '/learning/programming/' | relative_url }}">Software</a></h4>
+      <p>Robot code, autonomous, vision, and controls.</p>
     </div>
     <div class="org-node">
-      <h4>CAD / Design Lead</h4>
-      <p>Whole-robot CAD, integration, manufacturing drawings.</p>
-    </div>
-  </div>
-
-  <p class="org-branch-label">Non-technical subteams</p>
-  <div class="org-level">
-    <div class="org-node">
-      <h4>Business / Operations Lead</h4>
-      <p>Budget, sponsors, awards submissions, logistics.</p>
+      <h4><a href="{{ '/learning/cad/' | relative_url }}">CAD &amp; Design</a></h4>
+      <p>Whole-robot CAD, integration, and mechanism design.</p>
     </div>
     <div class="org-node">
-      <h4>Outreach / Community Lead</h4>
-      <p>Events, volunteering, rookie mentoring, impact tracking.</p>
+      <h4><a href="{{ '/learning/printing/' | relative_url }}">3D Printing</a></h4>
+      <p>Materials, slicing, and printing functional parts.</p>
     </div>
     <div class="org-node">
-      <h4>Media / Marketing Lead</h4>
-      <p>Branding, social media, photography, this website.</p>
+      <h4><a href="{{ '/learning/business-outreach/' | relative_url }}">Business &amp; Outreach</a></h4>
+      <p>Sponsorship, budget, awards, and community impact.</p>
     </div>
     <div class="org-node">
-      <h4>Safety Captain</h4>
-      <p>Shop rules, PPE, incident reporting, safety culture.</p>
+      <h4><a href="{{ '/learning/strategy-scouting/' | relative_url }}">Strategy &amp; Scouting</a></h4>
+      <p>Game analysis, scouting, and alliance selection.</p>
+    </div>
+    <div class="org-node">
+      <h4><a href="{{ '/learning/drive-team/' | relative_url }}">Drive Team</a></h4>
+      <p>Driving, operating, human player, and pit crew.</p>
     </div>
   </div>
 
 </div>
 
-## Role responsibilities
+## Role tiers
 
-### Team Captain(s)
+The same three tiers apply in every trade, and they mirror the levels in each
+Learning Hub track. The first tier simply carries the trade's role name on its
+own — no adjective — and you add a qualifier as you grow: for example
+*Programmer → Veteran Programmer → Lead Programmer*, or
+*Operator → Veteran Operator → Lead Operator* for 3D printing.
 
-- Run team meetings and keep the season on schedule.
-- Make final calls when subteams disagree; escalate to mentors when needed.
-- Represent the team to sponsors, judges, and other teams.
+### The role itself — learning the trade
 
-### Subteam Leads
+- Where everyone starts, and primarily about **learning** the trade.
+- Members carry the trade's role name on its own (Programmer, Fabricator,
+  Technician, Designer, Operator, …) — no qualifier, by design.
+- Work alongside Veterans and Leads, essentially **shadowing**, to build skills and
+  knowledge.
+- Take on guided tasks; not yet expected to work unsupervised.
+- Progress by earning certifications in the [Learning Hub]({{ '/learning/' | relative_url }}).
 
-- Plan and assign their subteam's tasks each meeting.
-- Mentor newer members and track their skill growth.
-- Report progress and blockers to the captain(s).
+### Veteran — the core of the team
 
-### Members
+- Should make up the **bulk of the team** — the people doing the core work to
+  build the robot each season.
+- Work **independently** on their trade's tasks.
+- Bring concerns, ideas, and blockers to their trade **Lead**, who raises them with
+  the leadership team to discuss.
+- Help teach and check the work of newer members.
 
-- Show up, participate, and own their assigned tasks.
-- Ask questions early and document what they build.
-- Follow all safety rules without exception.
+### Lead — co-captain
 
-### Mentors
+- The most experienced and accountable person in a trade.
+- Each Lead is a **co-captain** on the Student Leadership Team.
+- **Facilitates the success of others** — teaches, unblocks, assigns, and
+  coordinates within their trade.
+- **Assists mentors in the team's decision-making** and represents their trade's
+  concerns.
+- Owns their trade's quality, standards, and direction for the season.
 
-- Coach, don't do: ask guiding questions before giving answers.
-- Ensure safety and provide tools, training, and continuity.
-- Manage sponsor, school, and FIRST logistics that students can't.
+## Student Leadership Team (co-captains)
 
-## Specialty / rotating roles
+- Made up of the **Leads from every trade**. There is no single captain —
+  leadership is shared, and each member is a **co-captain**.
+- Two core responsibilities: **facilitate the success of others**, and **assist the
+  adults with the team's decision-making**.
+- **Student-driven, but not unilateral.** The team being student-driven does *not*
+  give students the authority to make decisions without adult insight. Significant
+  calls are made with mentors in the loop — see the
+  [Decision-Making Guide]({{ '/decision-making/' | relative_url }}) for the full
+  process.
 
-These can be filled by any member and often rotate during the season:
+## Adult Mentors
 
-- **Drive Team:** driver, operator, human player, drive coach, technician.
-- **Scouting Lead:** match and pit scouting strategy and data.
-- **Strategy Lead:** game analysis, alliance selection prep.
-- **Pit Crew:** repairs and maintenance between matches at events.
+- Serve **primarily as flex capacity** — filling any role when no student is
+  available or certified to do it.
+- Provide the **insight** behind team decisions; students don't decide without it.
+- Ensure **safety**, provide tools and training, and maintain continuity year to
+  year.
+- **Coach, don't do:** ask guiding questions before giving answers.
+
+## Getting certified
+
+- **Anyone can become certified in any role**, in any trade — there are no
+  gatekept positions.
+- Certification is earned by completing the relevant
+  [Learning Hub]({{ '/learning/' | relative_url }}) track and demonstrating the
+  skills in practice.
+- Members can hold roles across multiple trades and move up tiers over time.
 
 <div class="callout">
-  <div class="callout-icon">🔧</div>
-  <p>Right-size this chart to your team. A rookie team of 10 may combine leads; a large team may add deputies and dedicated subteam members under each lead.</p>
+  <div class="callout-icon">🧭</div>
+  <p>Aim for a team that is mostly Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors filling gaps and keeping decisions grounded. Right-size the number of trades and leads to your team.</p>
 </div>

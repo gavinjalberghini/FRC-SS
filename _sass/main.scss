@@ -655,6 +655,18 @@ a.card:hover {
   border-color: rgba(63, 185, 80, 0.4);
 }
 
+.badge-operator {
+  color: #7ee2a8;
+  background: rgba(63, 185, 80, 0.12);
+  border-color: rgba(63, 185, 80, 0.4);
+}
+
+.badge-emerging {
+  color: #7ee2a8;
+  background: rgba(63, 185, 80, 0.12);
+  border-color: rgba(63, 185, 80, 0.4);
+}
+
 /* ---------- Lesson meta ---------- */
 .lesson-meta {
   display: flex;

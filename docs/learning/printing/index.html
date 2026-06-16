@@ -1,0 +1,88 @@
+---
+layout: default
+title: 3D Printing Curriculum
+permalink: /learning/printing/
+---
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ '/learning/' | relative_url }}">Learning Hub</a> &middot; 3D Printing</p>
+    <h1>3D Printing Curriculum</h1>
+    <p class="lede">
+      A role-based path for 3D printing on the team, built around our
+      <a href="https://bambulab.com/" target="_blank" rel="noopener">Bambu Lab</a>
+      printers and Bambu Studio. Work through the lessons in order — from your first
+      print to producing strong, competition-legal parts in engineering materials.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Roles</h2>
+    <p class="section-intro">
+      Print operators grow through three roles. Each role is earned by completing
+      the lessons labeled for it (and everything before it) and demonstrating the
+      skills on a printer.
+    </p>
+
+    <div class="role-overview">
+      {% for role in site.data.printing_curriculum.roles %}
+      <div class="role-card">
+        <div class="role-emoji">{{ role.emoji }}</div>
+        <h3><span class="badge badge-{{ role.id }}">{{ role.name }}</span></h3>
+        <p>{{ role.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="wrap">
+    <h2>Lesson roadmap</h2>
+    <p class="section-intro">
+      Lessons are ordered by when they are best learned. The badge on each lesson
+      shows the role it belongs to.
+    </p>
+
+    <div class="roadmap">
+      {% for role in site.data.printing_curriculum.roles %}
+      <div class="roadmap-group">
+        <h3 class="roadmap-group-title">
+          <span class="badge badge-{{ role.id }}">{{ role.emoji }} {{ role.name }}</span>
+        </h3>
+        {% assign role_lessons = site.data.printing_curriculum.lessons | where: "role", role.id | sort: "order" %}
+        {% for lesson in role_lessons %}
+        <a class="lesson-row" href="{{ '/learning/printing/' | append: lesson.slug | append: '/' | relative_url }}">
+          <span class="lesson-num">{{ lesson.order }}</span>
+          <span class="lesson-info">
+            <h4>{{ lesson.title }}</h4>
+            <p>{{ lesson.summary }}</p>
+          </span>
+          <span class="lesson-size">Effort {{ lesson.size }}/3 &middot; {{ lesson.time }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🔥</div>
+      <p>
+        <strong>Respect the heat and the fumes.</strong> Nozzles and beds run hot
+        enough to burn, and some materials need an enclosure and ventilation. Never
+        reach into a running printer, and follow the safety rules in Lesson 1.
+      </p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">📏</div>
+      <p>
+        <strong>Printed parts must be competition-legal.</strong> The FRC game
+        manual restricts where and how 3D-printed parts can be used each season.
+        When this curriculum and the manual disagree, the manual wins.
+      </p>
+    </div>
+  </div>
+</section>
