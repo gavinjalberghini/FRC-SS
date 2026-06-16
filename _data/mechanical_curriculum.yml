@@ -1,0 +1,114 @@
+# Mechanical / Fabrication curriculum.
+# Modeled on a shop-skills role ladder: safety and measurement first,
+# then hands-on fabrication and cutting, then assembly and mechanisms.
+# `roles` define the progression; `lessons` are ordered by when they are best
+# learned and labeled with the role at which they are expected.
+
+roles:
+  - id: fabricator
+    name: Fabricator
+    emoji: "🦺"
+    summary: >-
+      Entry-level role for new members. Earn your shop safety sign-off, learn to
+      read a tape measure and calipers, and recognize the fasteners and materials
+      an FRC robot is built from. No machine use until this sign-off is complete.
+  - id: veteran
+    name: Veteran Fabricator
+    emoji: "🔧"
+    summary: >-
+      The hands-on core. Master the common hand and power tools, mark and measure
+      accurately, and cut, drill, tap, and finish aluminum stock to make real parts
+      safely and to spec.
+  - id: lead
+    name: Lead Fabricator
+    emoji: "⚙️"
+    summary: >-
+      Put parts together into working mechanisms. Understand power transmission and
+      drivetrains, assemble to tolerance with proper fasteners, and keep the robot
+      aligned, serviceable, and competition-ready.
+
+lessons:
+  - order: 1
+    slug: shop-safety
+    title: Shop Safety & PPE
+    role: fabricator
+    size: 1
+    time: "45–60 min"
+    summary: PPE, safe behavior around machines, and the sign-off you need before touching any tool.
+  - order: 2
+    slug: measurement-layout
+    title: Measurement & Layout
+    role: fabricator
+    size: 2
+    time: "1–2 hrs"
+    summary: Read a tape measure and calipers, work in fractions and decimals, and mark accurate cut lines.
+  - order: 3
+    slug: fasteners-hardware
+    title: Fasteners & Hardware
+    role: fabricator
+    size: 1
+    time: "45–60 min"
+    summary: Screws, bolts, nuts, rivets, and thread sizes — what to use where, and how threads work.
+  - order: 4
+    slug: materials-stock
+    title: Materials & Stock
+    role: fabricator
+    size: 1
+    time: "45–60 min"
+    summary: Aluminum box tube, sheet, polycarbonate, and COTS parts — what the robot is built from and why.
+  - order: 5
+    slug: hand-tools
+    title: Hand Tools
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Wrenches, hex keys, screwdrivers, files, and hacksaws — the manual tools you reach for first.
+  - order: 6
+    slug: drills-drivers
+    title: Drills & Drivers
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Cordless drill/driver and impact driver operation, bit selection, speed, torque, and technique.
+  - order: 7
+    slug: cutting-materials
+    title: Cutting Materials
+    role: veteran
+    size: 3
+    time: "2–3 hrs"
+    summary: Bandsaw, chop/miter saw, and hand saws — measuring, marking, and making square, safe cuts.
+  - order: 8
+    slug: drilling-tapping
+    title: Drilling & Tapping
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Drill press operation, hole layout, deburring, and cutting clean threads with a tap.
+  - order: 9
+    slug: grinders-sanders
+    title: Grinders, Sanders & Rotary Tools
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Angle grinders, belt/disc sanders, and rotary tools for deburring, finishing, and material removal.
+  - order: 10
+    slug: riveting-assembly
+    title: Riveting & Fastened Assembly
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Pop rivets and rivet tools, plus bolted assembly best practices for strong, serviceable joints.
+  - order: 11
+    slug: power-transmission-drivetrains
+    title: Power Transmission & Drivetrains
+    role: lead
+    size: 3
+    time: "Multi-session"
+    summary: Gears, belts, chain, shafts, and bearings — how motor power becomes robot motion.
+  - order: 12
+    slug: assembly-tolerances-maintenance
+    title: Assembly, Tolerances & Maintenance
+    role: lead
+    size: 2
+    time: "2–3 hrs"
+    summary: Build to tolerance, align mechanisms, and keep the robot serviceable through a season.

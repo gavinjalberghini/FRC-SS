@@ -1,0 +1,78 @@
+---
+layout: default
+title: Programming Curriculum
+permalink: /learning/programming/
+---
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ '/learning/' | relative_url }}">Learning Hub</a> &middot; Software</p>
+    <h1>Programming Curriculum</h1>
+    <p class="lede">
+      A role-based path for the software team. Work through the lessons in order:
+      each one builds on the last, from your first commit to leading the codebase
+      through a build season.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Roles</h2>
+    <p class="section-intro">
+      Programmers grow through three roles. Each role is earned by completing the
+      lessons labeled for it (and everything before it) and demonstrating the skills in practice.
+    </p>
+
+    <div class="role-overview">
+      {% for role in site.data.curriculum.roles %}
+      <div class="role-card">
+        <div class="role-emoji">{{ role.emoji }}</div>
+        <h3><span class="badge badge-{{ role.id }}">{{ role.name }}</span></h3>
+        <p>{{ role.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="wrap">
+    <h2>Lesson roadmap</h2>
+    <p class="section-intro">
+      Lessons are ordered by when they are best learned. The badge on each lesson
+      shows the role it belongs to.
+    </p>
+
+    <div class="roadmap">
+      {% for role in site.data.curriculum.roles %}
+      <div class="roadmap-group">
+        <h3 class="roadmap-group-title">
+          <span class="badge badge-{{ role.id }}">{{ role.emoji }} {{ role.name }}</span>
+        </h3>
+        {% assign role_lessons = site.data.curriculum.lessons | where: "role", role.id | sort: "order" %}
+        {% for lesson in role_lessons %}
+        <a class="lesson-row" href="{{ '/learning/programming/' | append: lesson.slug | append: '/' | relative_url }}">
+          <span class="lesson-num">{{ lesson.order }}</span>
+          <span class="lesson-info">
+            <h4>{{ lesson.title }}</h4>
+            <p>{{ lesson.summary }}</p>
+          </span>
+          <span class="lesson-size">Effort {{ lesson.size }}/3 &middot; {{ lesson.time }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🚧</div>
+      <p>
+        This curriculum covers the foundations, tooling, and the building blocks of
+        command-based robot code. A deeper dive into full robot architecture
+        (subsystem design, command composition, and controls) is an ongoing effort —
+        expect more lessons to be added over time.
+      </p>
+    </div>
+  </div>
+</section>

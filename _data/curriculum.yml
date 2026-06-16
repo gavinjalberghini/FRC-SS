@@ -1,0 +1,145 @@
+# Programming team curriculum.
+# `roles` define the progression levels; `lessons` are ordered by when they are
+# best learned and labeled with the role at which they are expected.
+
+roles:
+  - id: programmer
+    name: Programmer
+    emoji: "🧑‍💻"
+    summary: >-
+      Entry-level role for new members. Build the foundational tools and Java
+      skills needed to contribute to robot software and collaborate with the team.
+  - id: veteran
+    name: Veteran Programmer
+    emoji: "👩‍💻"
+    summary: >-
+      Programmers who have shown core competency. Take ownership of subsystems,
+      write competition-ready and autonomous code, and mentor newer programmers.
+  - id: lead
+    name: Lead Programmer
+    emoji: "🦸"
+    summary: >-
+      The programming team's technical lead. Owns architecture and code review,
+      researches and improves the codebase, and represents programming in
+      leadership decisions.
+
+lessons:
+  - order: 1
+    slug: github
+    title: GitHub Basics
+    role: programmer
+    size: 1
+    time: "30–60 min"
+    summary: Set up your GitHub account, profile, and security so you can collaborate.
+  - order: 2
+    slug: git
+    title: Git Fundamentals
+    role: programmer
+    size: 2
+    time: "1–2 hrs"
+    summary: Clone, branch, commit, push, and open pull requests from the command line.
+  - order: 3
+    slug: java-fundamentals
+    title: Java Fundamentals
+    role: programmer
+    size: 3
+    time: "Self-paced (multi-week)"
+    summary: A 20-unit Java course, from syntax and variables to classes and inheritance.
+  - order: 4
+    slug: frc-hardware
+    title: FRC Hardware & Firmware
+    role: programmer
+    size: 2
+    time: "1–2 hrs"
+    summary: Learn the robot's electronics and how to update firmware and install FRC tools.
+  - order: 5
+    slug: phoenix-tuner
+    title: Phoenix Tuner X
+    role: programmer
+    size: 2
+    time: "~1 hr"
+    summary: Configure, test, and diagnose CTRE devices without writing code.
+  - order: 6
+    slug: kanban-agile
+    title: Kanban & Agile Practices
+    role: veteran
+    size: 1
+    time: "~45 min"
+    summary: Plan and track work with sprints, standups, and well-formed issues.
+  - order: 7
+    slug: driver-input
+    title: Reading Driver Input
+    role: veteran
+    size: 2
+    time: "30–60 min"
+    summary: Read joysticks and controllers, and bind buttons to actions in command-based code.
+  - order: 8
+    slug: coordinate-system
+    title: The Field Coordinate System
+    role: veteran
+    size: 1
+    time: "~45 min"
+    summary: Understand WPILib's robot, joystick, and field axes — and why you negate inputs.
+  - order: 9
+    slug: commands-as-functions
+    title: Commands as Functions
+    role: veteran
+    size: 1
+    time: "~45 min"
+    summary: Use lambdas and method references to build inline commands the scheduler can run.
+  - order: 10
+    slug: alliance-color
+    title: Match State & Alliance Color
+    role: veteran
+    size: 1
+    time: "~30 min"
+    summary: Read the alliance color safely and act on it during a match.
+  - order: 11
+    slug: configuration
+    title: "Tunable Config: Units, Preferences & Deploy Files"
+    role: veteran
+    size: 2
+    time: "1 hr"
+    summary: Type-safe units, dashboard-tunable Preferences, and files in the deploy directory.
+  - order: 12
+    slug: debugging
+    title: "Debugging & Performance: Test Mode, Stacktraces & GC"
+    role: veteran
+    size: 2
+    time: "1 hr"
+    summary: Use Test mode, read stack traces to find bugs, and avoid garbage-collection stalls.
+  - order: 13
+    slug: code-a-robot
+    title: Code a Robot
+    role: veteran
+    size: 3
+    time: "Multi-session"
+    summary: A full zero-to-robot build — swerve generation, PID tuning, and path following.
+  - order: 14
+    slug: autonomous
+    title: Autonomous Paths
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Design autonomous routines with PathPlanner and Choreo.
+  - order: 15
+    slug: researching-robot-code
+    title: Researching Robot Code
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Study other teams' open-source code to improve our own architecture.
+  - order: 16
+    slug: vision-photonvision
+    title: Vision & PhotonVision
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Image coprocessors, wire cameras, and configure vision pipelines.
+  - order: 17
+    slug: code-review-leadership
+    title: Code Review & Build-Season Leadership
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: Run reviews, own the codebase lifecycle, and lead the team through build season.

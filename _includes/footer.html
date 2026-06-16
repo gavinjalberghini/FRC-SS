@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-col">
+      <span class="brand-mark small">FRC</span>
+      <p>{{ site.title }} &mdash; {{ site.tagline }}</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Quick links</p>
+      {% for item in site.data.nav %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">About</p>
+      <p>{{ site.team.name }}</p>
+      <p class="muted">This is a living document. Open a pull request to suggest changes.</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; {{ site.time | date: '%Y' }} {{ site.team.name }}. Built with Jekyll &amp; GitHub Pages.</span>
+  </div>
+</footer>

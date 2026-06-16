@@ -1,0 +1,20 @@
+# Build output & dependencies
+_site/
+.jekyll-cache/
+.sass-cache/
+node_modules/
+vendor/
+
+# Liquid/HTML templates and Markdown are owned by other tools
+# (markdownlint for Markdown; Liquid syntax confuses Prettier).
+*.html
+*.md
+_includes/
+_layouts/
+
+# Jekyll front matter at the top of these files isn't valid SCSS/CSS for Prettier.
+assets/
+
+# Ruby tooling
+Gemfile
+Gemfile.lock

@@ -1,0 +1,114 @@
+# Electrical, Sensors & Pneumatics curriculum.
+# Modeled on a technician role ladder used by FRC teams and grounded in
+# the official WPILib / FIRST control-system docs.
+# `roles` define the progression; `lessons` are ordered by when they are best
+# learned and labeled with the role at which they are expected.
+
+roles:
+  - id: technician
+    name: Technician
+    emoji: "🔌"
+    summary: >-
+      Entry-level role for new members. Learn to work safely around power, recognize
+      every device in the control system, and identify pneumatic components by
+      sight — the foundation every other skill builds on.
+  - id: veteran
+    name: Veteran Technician
+    emoji: "🔧"
+    summary: >-
+      Build it correctly. Wire a complete control board to spec, connect motors,
+      controllers, and sensors, and assemble a working pneumatics system that
+      passes robot inspection.
+  - id: lead
+    name: Lead Technician
+    emoji: "🛠️"
+    summary: >-
+      Diagnose like a pro. Read status lights and fault codes, understand the
+      roboRIO's communication ports, run a disciplined troubleshooting process,
+      and calculate pneumatic system performance.
+
+lessons:
+  - order: 1
+    slug: electrical-safety
+    title: Electrical Safety
+    role: technician
+    size: 1
+    time: "30–60 min"
+    summary: Battery handling, fusing, avoiding shorts, and the safe-state habits that protect people and hardware.
+  - order: 2
+    slug: control-system
+    title: The FRC Control System
+    role: technician
+    size: 2
+    time: "1–2 hrs"
+    summary: Meet every device on the robot — roboRIO, PDH/PDP, radio, breakers, and the RSL — and how they connect.
+  - order: 3
+    slug: power-distribution
+    title: Power Distribution
+    role: technician
+    size: 2
+    time: "1 hr"
+    summary: The battery, main breaker, and Power Distribution Hub — how power flows and how channels are protected.
+  - order: 4
+    slug: pneumatics-identification
+    title: "Pneumatics 1: Component Identification"
+    role: technician
+    size: 1
+    time: "45–60 min"
+    summary: Recognize every part of an FRC pneumatic system by sight, from the compressor to press-fit connectors.
+  - order: 5
+    slug: wiring-craftsmanship
+    title: Wiring Craftsmanship
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Wire gauge, crimping, ferrules, connectors, labeling, and strain relief — wiring that survives a season.
+  - order: 6
+    slug: motors-controllers
+    title: Motors & Motor Controllers
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Brushed vs. brushless motors, CAN vs. PWM control, and wiring controllers from the PDH to the motor.
+  - order: 7
+    slug: sensors
+    title: Sensors & Signal Inputs
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Limit switches, encoders, gyros, and rangefinders — by function and by how they talk to the roboRIO.
+  - order: 8
+    slug: pneumatics-construction
+    title: "Pneumatics 2: Purpose & Construction"
+    role: veteran
+    size: 3
+    time: "Multi-session"
+    summary: What each pneumatic part does, how to wire the PCM/PH, and how to build and test a complete board.
+  - order: 9
+    slug: roborio-ports
+    title: roboRIO Ports & Communication Protocols
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: CAN, I2C, SPI, RS-232, MXP, and the user/reset buttons — what each port does and when to use it.
+  - order: 10
+    slug: status-lights-fault-codes
+    title: Status Lights & Fault Codes
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Read the roboRIO, PDH, motor controller, and pneumatics status LEDs to pinpoint faults fast.
+  - order: 11
+    slug: troubleshooting
+    title: Systematic Troubleshooting & Team Protocols
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: A repeatable method for isolating faults, plus the team protocols that keep troubleshooting safe and fast.
+  - order: 12
+    slug: pneumatics-troubleshooting
+    title: "Pneumatics 3: Calculations & Troubleshooting"
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Cylinder force, volume, and recharge math, plus a structured approach to diagnosing a pneumatic system.

@@ -1,0 +1,13 @@
+# Primary site navigation. Order here controls order in the header.
+- title: Home
+  url: /
+- title: Mission
+  url: /mission/
+- title: Org Chart
+  url: /org-chart/
+- title: Contract
+  url: /contract/
+- title: Season Roadmap
+  url: /roadmap/
+- title: Learning
+  url: /learning/

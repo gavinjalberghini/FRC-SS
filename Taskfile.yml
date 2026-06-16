@@ -1,0 +1,105 @@
+# Taskfile for the FRC Playbook static site.
+# Install go-task: https://taskfile.dev/installation/  (macOS: brew install go-task)
+# Run `task` (or `task --list`) to see everything available.
+version: "3"
+
+vars:
+  SITE_DIR: _site
+  # Must match `baseurl` in _config.yml. html-proofer strips this so internal
+  # links like /FRC-SS/mission/ resolve against the built _site directory.
+  BASEURL: /FRC-SS
+
+tasks:
+  default:
+    desc: List all available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  install:
+    desc: Install Node (lint) and Ruby (Jekyll) dependencies
+    cmds:
+      # Node tools first so linting/formatting work even if Ruby setup fails.
+      - task: install:node
+      - task: install:ruby
+
+  install:node:
+    desc: Install Node lint/format tooling
+    cmds:
+      - npm install
+
+  install:ruby:
+    desc: Install Ruby gems (Jekyll, html-proofer) into ./vendor/bundle
+    cmds:
+      - bundle config set --local path vendor/bundle
+      - bundle install
+
+  build:
+    desc: Build the site into {{.SITE_DIR}}
+    cmds:
+      - bundle exec jekyll build --trace
+
+  serve:
+    desc: Serve the site locally with live reload (http://localhost:4000{{.BASEURL}}/)
+    cmds:
+      - bundle exec jekyll serve --livereload
+
+  clean:
+    desc: Remove build output and caches
+    cmds:
+      - rm -rf {{.SITE_DIR}} .jekyll-cache .sass-cache .jekyll-metadata
+
+  # ---- Linting -------------------------------------------------------------
+  lint:
+    desc: Run all linters (Markdown, SCSS, formatting)
+    cmds:
+      - task: lint:md
+      - task: lint:scss
+      - task: lint:format
+
+  lint:md:
+    desc: Lint Markdown content
+    cmds:
+      - npx --no-install markdownlint-cli2 "**/*.md" "#node_modules" "#_site" "#vendor"
+
+  lint:scss:
+    desc: Lint SCSS styles
+    cmds:
+      - npx --no-install stylelint "_sass/**/*.scss"
+
+  lint:format:
+    desc: Check formatting of data, config, and styles with Prettier
+    cmds:
+      - npx --no-install prettier --check "**/*.{json,yml,yaml,scss}"
+
+  format:
+    desc: Auto-fix formatting with Prettier and stylelint
+    cmds:
+      - npx --no-install prettier --write "**/*.{json,yml,yaml,scss}"
+      - npx --no-install stylelint "_sass/**/*.scss" --fix
+
+  # ---- Testing -------------------------------------------------------------
+  test:
+    desc: Build, then validate HTML and internal links (no network)
+    deps: [build]
+    cmds:
+      - >-
+        bundle exec htmlproofer {{.SITE_DIR}}
+        --disable-external
+        --swap-urls "^{{.BASEURL}}:"
+
+  test:external:
+    desc: Build, then also validate external links (slower, needs network)
+    deps: [build]
+    cmds:
+      - >-
+        bundle exec htmlproofer {{.SITE_DIR}}
+        --swap-urls "^{{.BASEURL}}:"
+        --ignore-status-codes "0,403,429,503"
+
+  # ---- Convenience ---------------------------------------------------------
+  check:
+    desc: Run lint + build + test (use this before opening a pull request)
+    cmds:
+      - task: lint
+      - task: test

@@ -1,0 +1,96 @@
+# CAD & Design curriculum.
+# Adapted from the FRCDesign.org Learning Course (https://frcdesign.org/learning-course/).
+# `roles` define the progression levels; `lessons` are ordered by when they are
+# best learned and labeled with the role at which they are expected.
+
+roles:
+  - id: designer
+    name: Designer
+    emoji: "📐"
+    summary: >-
+      Entry-level role for new members. Get set up with Onshape and learn the
+      fundamentals of sketching, part design, power transmission, and assemblies.
+  - id: veteran
+    name: Veteran Designer
+    emoji: "📦"
+    summary: >-
+      Designers who have shown core competency. Take ownership of full subsystems
+      with a top-down workflow and model competition-ready mechanisms.
+  - id: lead
+    name: Lead Designer
+    emoji: "🤖"
+    summary: >-
+      The design team's technical lead. Owns the most complex mechanisms and the
+      robot's overall CAD architecture and subsystem integration.
+
+lessons:
+  - order: 1
+    slug: getting-started
+    title: Getting Started with Onshape
+    role: designer
+    size: 1
+    time: "1–2 hrs"
+    summary: Pick a CAD tool, set up and tune your Onshape account, and install the required part library and FeatureScripts.
+  - order: 2
+    slug: onshape-fundamentals
+    title: Onshape Fundamentals
+    role: designer
+    size: 3
+    time: "Self-paced (multi-week)"
+    summary: Part studios, plates, and assemblies — box tubes, sketches, gussets, rivets, and a full swerve frame.
+  - order: 3
+    slug: power-transmission
+    title: Power Transmission & Gearboxes
+    role: designer
+    size: 3
+    time: "Multi-session"
+    summary: Motors, shafts, bearings, torque and speed, and modeling gear, belt, and chain gearboxes.
+  - order: 4
+    slug: practice-mechanisms
+    title: Practice Mechanisms
+    role: designer
+    size: 2
+    time: "Multi-session"
+    summary: Eight progressively less-guided drills — intakes, rollers, a shooter, a telescoping hook, and gearboxes.
+  - order: 5
+    slug: design-methodology
+    title: Top-Down Design Methodology
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Drive a whole project from a master layout sketch through part studios to a top-level assembly.
+  - order: 6
+    slug: subsystem-workflow
+    title: Subsystem Workflow
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Package the battery, electronics, bellypan, and bumpers into a finished drivebase.
+  - order: 7
+    slug: basic-shooter
+    title: Basic Shooter
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Model a flywheel shooter while learning rigidity, trajectory, exit velocity, compression, and spin.
+  - order: 8
+    slug: dead-axle-pivot
+    title: Dead Axle Pivot
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Build a pivoting arm on a dead axle — strength, friction, power transmission, tensioning, and backlash.
+  - order: 9
+    slug: slapdown-intake
+    title: Slapdown Intake
+    role: lead
+    size: 2
+    time: "2–3 hrs"
+    summary: Design a robust slapdown intake using the intake golden rules, pivots, rollers, and zombie axles.
+  - order: 10
+    slug: cascade-elevator
+    title: Cascade Elevator
+    role: lead
+    size: 3
+    time: "3–4 hrs"
+    summary: Model a cascade elevator with elevator blocks, chain attachment, rigging, cable clamps, and a gearbox.

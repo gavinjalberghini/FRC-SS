@@ -1,0 +1,35 @@
+# Site settings
+title: FRC Playbook
+tagline: A field guide for building and running an FRC robotics team
+description: >-
+  An open playbook covering team structure, culture, season planning, and
+  role-based learning resources for FIRST Robotics Competition teams.
+author: Your Team
+# Build / deploy settings
+# When served from https://<user>.github.io/FRC-SS/ the baseurl must be "/FRC-SS".
+# Leave url blank for local development.
+baseurl: "/FRC-SS"
+url: ""
+
+# Customize these for your team
+team:
+  name: "Your Team Name"
+  region: "Your Region"
+  rookie_year: "20XX"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Navigation is defined in _data/nav.yml
+
+# Files Jekyll should not copy into the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Taskfile.yml

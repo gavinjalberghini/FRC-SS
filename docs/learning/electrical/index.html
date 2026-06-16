@@ -1,0 +1,91 @@
+---
+layout: default
+title: Electrical, Sensors & Pneumatics Curriculum
+permalink: /learning/electrical/
+---
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ '/learning/' | relative_url }}">Learning Hub</a> &middot; Electrical</p>
+    <h1>Electrical, Sensors &amp; Pneumatics Curriculum</h1>
+    <p class="lede">
+      A role-based path for the electrical team. Work through the lessons in order:
+      each one builds on the last, from working safely around a battery to
+      diagnosing fault codes on a fully wired robot — including sensors and a
+      complete pneumatics system.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Roles</h2>
+    <p class="section-intro">
+      Electrical technicians grow through three roles. Each role is earned by
+      completing the lessons labeled for it (and everything before it) and
+      demonstrating the skills on a real robot.
+    </p>
+
+    <div class="role-overview">
+      {% for role in site.data.electrical_curriculum.roles %}
+      <div class="role-card">
+        <div class="role-emoji">{{ role.emoji }}</div>
+        <h3><span class="badge badge-{{ role.id }}">{{ role.name }}</span></h3>
+        <p>{{ role.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="wrap">
+    <h2>Lesson roadmap</h2>
+    <p class="section-intro">
+      Lessons are ordered by when they are best learned. The badge on each lesson
+      shows the role it belongs to.
+    </p>
+
+    <div class="roadmap">
+      {% for role in site.data.electrical_curriculum.roles %}
+      <div class="roadmap-group">
+        <h3 class="roadmap-group-title">
+          <span class="badge badge-{{ role.id }}">{{ role.emoji }} {{ role.name }}</span>
+        </h3>
+        {% assign role_lessons = site.data.electrical_curriculum.lessons | where: "role", role.id | sort: "order" %}
+        {% for lesson in role_lessons %}
+        <a class="lesson-row" href="{{ '/learning/electrical/' | append: lesson.slug | append: '/' | relative_url }}">
+          <span class="lesson-num">{{ lesson.order }}</span>
+          <span class="lesson-info">
+            <h4>{{ lesson.title }}</h4>
+            <p>{{ lesson.summary }}</p>
+          </span>
+          <span class="lesson-size">Effort {{ lesson.size }}/3 &middot; {{ lesson.time }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">⚡</div>
+      <p>
+        <strong>Always work to the current rules.</strong> Wiring, fusing, and
+        pneumatic pressure limits are set by the official
+        <a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" rel="noopener">FRC game manual</a>
+        each season. When this curriculum and the manual disagree, the manual wins.
+      </p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🚧</div>
+      <p>
+        This curriculum summarizes the official
+        <a href="https://docs.wpilib.org/" target="_blank" rel="noopener">WPILib</a>
+        and vendor documentation alongside our team's certification ladder — always
+        open the linked source pages while you work, and replace the placeholder
+        notes with your team's own standards.
+      </p>
+    </div>
+  </div>
+</section>
