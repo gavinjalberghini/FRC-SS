@@ -98,8 +98,9 @@ installed globally.
 | `task format`        | Auto-fix formatting (Prettier + `stylelint --fix`)          |
 | `task test`          | Build, then validate HTML and internal links (no network)   |
 | `task test:external` | Also check external links (slower, needs network)           |
+| `task test:performance` | Measure network + page-load speed vs. the live site (see below) |
+| `task warm`          | Pre-warm the GitHub Pages CDN cache (see below)             |
 | `task check`         | `lint` + `build` + `test` — run this before opening a PR     |
-| `task perf`          | Measure network + page-load speed vs. the live site (see below) |
 | `task clean`         | Remove `_site/` and caches                                  |
 
 The linters are also exposed as npm scripts (`npm run lint`, `npm run format`)
@@ -108,10 +109,10 @@ path, run `bundle exec jekyll serve --baseurl ""` and open <http://localhost:400
 
 ### Performance testing
 
-`task perf` measures real network connectivity and page-load speed from your
-machine to the live public site. It samples several representative pages with
-`curl` and reports the full timing breakdown — DNS, TCP, TLS, server wait
-(**TTFB**), and content transfer — plus response size, throughput, and HTTP
+`task test:performance` measures real network connectivity and page-load speed
+from your machine to the live public site. It samples several representative
+pages with `curl` and reports the full timing breakdown — DNS, TCP, TLS, server
+wait (**TTFB**), and content transfer — plus response size, throughput, and HTTP
 version, summarized per page and overall (`min / median / p95 / max / mean`).
 It needs only `curl` and `awk` (preinstalled on macOS/Linux) and is defined
 entirely inside `Taskfile.yml`.
@@ -119,18 +120,51 @@ entirely inside `Taskfile.yml`.
 Pass options after `--`:
 
 ```bash
-task perf                       # default pages, 5 samples each
-task perf -- -n 20              # heavier sampling for stable percentiles
-task perf -- -o results.csv     # also save raw samples as CSV for analysis
-task perf -- learning/ roadmap/ # test only specific paths
-task perf -- -h                 # full option help (-b URL, -n, -d, -o, -f)
+task test:performance                       # default pages, 5 samples each
+task test:performance -- -n 20              # heavier sampling for percentiles
+task test:performance -- -o results.csv     # also save raw samples as CSV
+task test:performance -- learning/ roadmap/ # test only specific paths
+task test:performance -- -t 60              # raise the per-request timeout cap
+task test:performance -- -h                 # full option help
 ```
 
-Reading the output: high **WAIT/TTFB** points at server/CDN latency; high
-**XFER** points at bandwidth or payload size; high **DNS/TCP/TLS** points at
-connection setup (distance to the CDN edge or a cold connection). GitHub Pages
-sits behind a CDN, so repeated runs warm caches and later samples are faster —
-use a larger `-n` for stable numbers.
+Reading the output: each request is **OK** only if the body fully downloaded;
+a request that connects fast but stalls mid-transfer is reported as **stalled**,
+not OK. High **WAIT/TTFB** points at server/CDN latency; high **XFER** points at
+bandwidth or payload size; high **DNS/TCP/TLS** points at connection setup. A
+fast TTFB with stalled transfers means the bottleneck is the network **path**
+(proxy/VPN/firewall/congestion between you and GitHub), not the site.
+
+The **CDN cache** table reports GitHub Pages' Fastly cache result per page —
+`HIT` means the page was served fast from a nearby edge node, while `MISS` means
+that edge had to fetch from GitHub's origin first (slower). `med-age(s)` is how
+long the served copy had been sitting in the CDN. Intermittent `MISS`es are the
+usual reason a low-traffic GitHub Pages site feels "sometimes slow": the cache
+TTL is short (`max-age=600`) and you cannot change it on GitHub Pages, so cold
+edge nodes periodically re-fetch from origin. The test sends no `Cache-Control`
+header, so these results reflect a normal browser visit; run a larger `-n` to
+see the HIT/MISS mix. The CSV (`-o`) includes per-request `curl_exit`, `cdn_age`,
+and `x_cache` columns for deeper analysis.
+
+### Cache warming
+
+A low-traffic GitHub Pages site feels "sometimes slow" mostly because the CDN
+edge cache goes cold and has to re-fetch pages from origin (`MISS`). `task warm`
+crawls the live `sitemap.xml` and GETs every page + asset so the edge nearest
+you caches them ahead of real visitors:
+
+```bash
+task warm              # one warming pass, then a verify pass (watch MISS -> HIT)
+task warm -- -r 3      # more passes
+task warm -- -l 540    # keep re-warming every 540s (under the 600s TTL); Ctrl-C to stop
+```
+
+Two honest limits: it only warms edge nodes **near wherever you run it** (not
+every visitor's region), and GitHub Pages' cache lives only **~10 minutes**
+(`max-age=600`), so warming is temporary. It's most useful run right before a
+demo or right after sharing the link — or on a loop (`-l`) during an event. For
+a durable fix you would need a CDN you control (e.g. Cloudflare) in front of the
+site.
 
 Fonts are **self-hosted** (`assets/fonts/`, declared via `@font-face` in
 `_sass/main.scss`) rather than loaded from Google Fonts, so page loads never
