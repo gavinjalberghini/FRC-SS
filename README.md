@@ -34,7 +34,8 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 ├── _layouts/              # default + page layouts
 ├── _sass/main.scss        # Site styles (imported by assets/css/style.scss)
 ├── assets/css/style.scss  # Jekyll entry point (compiled to /assets/css/style.css)
-├── Taskfile.yml           # Local lint / build / test tasks (go-task)
+├── assets/fonts/          # Self-hosted woff2 fonts (Inter + Space Grotesk)
+├── Taskfile.yml           # Local lint / build / test / perf tasks (go-task)
 ├── Gemfile                # Ruby deps (Jekyll + html-proofer)
 └── package.json           # Node deps (markdownlint, stylelint, prettier)
 ```
@@ -98,11 +99,48 @@ installed globally.
 | `task test`          | Build, then validate HTML and internal links (no network)   |
 | `task test:external` | Also check external links (slower, needs network)           |
 | `task check`         | `lint` + `build` + `test` — run this before opening a PR     |
+| `task perf`          | Measure network + page-load speed vs. the live site (see below) |
 | `task clean`         | Remove `_site/` and caches                                  |
 
 The linters are also exposed as npm scripts (`npm run lint`, `npm run format`)
 if you prefer not to install go-task. For a local preview without the project
 path, run `bundle exec jekyll serve --baseurl ""` and open <http://localhost:4000/>.
+
+### Performance testing
+
+`task perf` measures real network connectivity and page-load speed from your
+machine to the live public site. It samples several representative pages with
+`curl` and reports the full timing breakdown — DNS, TCP, TLS, server wait
+(**TTFB**), and content transfer — plus response size, throughput, and HTTP
+version, summarized per page and overall (`min / median / p95 / max / mean`).
+It needs only `curl` and `awk` (preinstalled on macOS/Linux) and is defined
+entirely inside `Taskfile.yml`.
+
+Pass options after `--`:
+
+```bash
+task perf                       # default pages, 5 samples each
+task perf -- -n 20              # heavier sampling for stable percentiles
+task perf -- -o results.csv     # also save raw samples as CSV for analysis
+task perf -- learning/ roadmap/ # test only specific paths
+task perf -- -h                 # full option help (-b URL, -n, -d, -o, -f)
+```
+
+Reading the output: high **WAIT/TTFB** points at server/CDN latency; high
+**XFER** points at bandwidth or payload size; high **DNS/TCP/TLS** points at
+connection setup (distance to the CDN edge or a cold connection). GitHub Pages
+sits behind a CDN, so repeated runs warm caches and later samples are faster —
+use a larger `-n` for stable numbers.
+
+Fonts are **self-hosted** (`assets/fonts/`, declared via `@font-face` in
+`_sass/main.scss`) rather than loaded from Google Fonts, so page loads never
+make third-party requests — this avoids the extra DNS/TLS round trips and the
+stalls that can occur on restrictive (e.g. school) networks. To change weights
+or families, drop the matching `latin-<weight>-normal.woff2` files (e.g. from
+[Fontsource](https://fontsource.org/)) into `assets/fonts/`, update the
+`@font-face` blocks at the top of `_sass/main.scss`, and adjust the `--font` /
+`--display` variables. Keep the two `rel="preload"` hints in
+`_includes/head.html` pointed at the above-the-fold faces.
 
 ## Deploy with GitHub Pages
 

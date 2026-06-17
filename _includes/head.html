@@ -7,18 +7,16 @@
 
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
   {%- comment -%}
-    Load Google Fonts without blocking first paint: the stylesheet is fetched as
-    a non-render-blocking "print" sheet, then promoted to "all" once loaded.
-    `display=swap` shows fallback text immediately and swaps when fonts arrive.
+    Fonts are self-hosted (see @font-face in _sass/main.scss) so loading never
+    depends on a third-party origin. Preload the two faces used above the fold
+    (Inter 400 body text, Space Grotesk 700 headings) so they fetch in parallel
+    with the stylesheet instead of after it.
   {%- endcomment -%}
-  {% assign google_fonts = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" %}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="{{ google_fonts }}" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="{{ google_fonts }}"></noscript>
+  <link rel="preload" href="{{ '/assets/fonts/inter-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/space-grotesk-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   {% seo %}
 </head>
