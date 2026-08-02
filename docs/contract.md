@@ -6,14 +6,9 @@ subtitle: Expectations for conduct, commitment, and safety that every member agr
 permalink: /contract/
 ---
 
-By joining {{ site.team.name }}, each member
+By joining our FRC team, each member
 agrees to uphold the standards below. This contract exists to keep everyone safe,
 respected, and able to do their best work.
-
-<div class="callout">
-  <div class="callout-icon">⚠️</div>
-  <p>This is a starting template, not legal advice. Have a mentor, school administrator, and/or parent review and adapt it before students sign.</p>
-</div>
 
 ## 1. Conduct & Respect
 
@@ -71,17 +66,3 @@ on severity. Safety violations are treated most seriously.
 ## Acknowledgement & Signatures
 
 I have read, understand, and agree to follow this team contract.
-
-<div class="sign-grid">
-  <div class="sign-line">Student name (printed)</div>
-  <div class="sign-line">Student signature &amp; date</div>
-  <div class="sign-line">Parent / guardian name (printed)</div>
-  <div class="sign-line">Parent / guardian signature &amp; date</div>
-  <div class="sign-line">Mentor name (printed)</div>
-  <div class="sign-line">Mentor signature &amp; date</div>
-</div>
-
-<div class="callout" style="margin-top: 2rem;">
-  <div class="callout-icon">🖨️</div>
-  <p>Tip: keep a printable PDF version of this contract for in-person signing, and store signed copies with your team records.</p>
-</div>
