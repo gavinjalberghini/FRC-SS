@@ -36,6 +36,7 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 ├── assets/css/style.scss  # Jekyll entry point (compiled to /assets/css/style.css)
 ├── assets/fonts/          # Self-hosted woff2 fonts (Inter + Space Grotesk)
 ├── Taskfile.yml           # Local lint / build / test / perf tasks (go-task)
+├── Dockerfile             # Container image for self-hosting (GHCR, arm64)
 ├── Gemfile                # Ruby deps (Jekyll + html-proofer)
 └── package.json           # Node deps (markdownlint, stylelint, prettier)
 ```
@@ -194,6 +195,54 @@ custom domain, set `baseurl` to `""` and add a `CNAME` file.
 
 > Because we deploy via Actions (not a branch folder), the `docs/` content folder
 > needs no special Pages configuration — the whole repo is built as one Jekyll site.
+
+## Self-hosting (Pantry homelab)
+
+The site is also served from the [Pantry](https://github.com/gavinjalberghini/Pantry)
+homelab cluster at **`https://alberghini.io/frc-ss`**, behind a Cloudflare
+Tunnel. This repo's only job in that pipeline is to publish a container image;
+everything cluster-side (manifests, tunnel routing) lives in Pantry — see its
+`docs/how-to/expose-a-website.md` runbook.
+
+How the image works (`Dockerfile`):
+
+- A multi-stage build compiles the site with Ruby 3.3 and hands `_site/` to
+  **unprivileged nginx** (runs as uid 101 on port 8080), which passes the
+  cluster's restricted security policies.
+- The tunnel forwards paths **unchanged** — a request for
+  `alberghini.io/frc-ss/x` reaches the container as `/frc-ss/x` — so the image
+  bakes in `baseurl: /frc-ss` (lowercase, distinct from the `/FRC-SS` used on
+  GitHub Pages) and nests the files under `/frc-ss` in the web root.
+- It's built for **`linux/arm64`** because the cluster's workers are
+  Raspberry Pis.
+
+Publishing is automatic: on every push to `main`,
+`.github/workflows/container.yml` builds the image on a native arm64 runner
+and pushes `ghcr.io/gavinjalberghini/frc-ss:latest` (plus a commit-sha tag)
+using the workflow's built-in `GITHUB_TOKEN` — no registry secrets to manage.
+GHCR is free for public packages on a personal account.
+
+One-time setup after the first publish:
+
+1. On GitHub, go to the package (**Profile → Packages → frc-ss** or the
+   Packages sidebar on this repo) → **Package settings** → change
+   **Visibility** to **Public**, so the cluster can pull it anonymously.
+   New GHCR packages default to private.
+
+Rolling out an update to the cluster (from the Pantry repo, after CI has
+pushed the new image):
+
+```bash
+kubectl -n frc rollout restart deploy/frc-ss
+```
+
+Local testing of the container:
+
+| Command             | What it does                                             |
+| ------------------- | -------------------------------------------------------- |
+| `task docker:build` | Build the image for your local architecture              |
+| `task docker:serve` | Run it at <http://localhost:8080/frc-ss/>                |
+| `task docker:push`  | Manual arm64 build + push to GHCR (CI normally does this) |
 
 ## Contributing
 

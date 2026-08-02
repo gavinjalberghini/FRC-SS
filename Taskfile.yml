@@ -8,6 +8,10 @@ vars:
   # Must match `baseurl` in _config.yml. html-proofer strips this so internal
   # links like /FRC-SS/mission/ resolve against the built _site directory.
   BASEURL: /FRC-SS
+  # Container image for self-hosting on the Pantry cluster. CI publishes this
+  # automatically (.github/workflows/container.yml); the docker:* tasks below
+  # are for local testing and manual pushes.
+  IMAGE: ghcr.io/gavinjalberghini/frc-ss
 
 tasks:
   default:
@@ -48,6 +52,27 @@ tasks:
     desc: Remove build output and caches
     cmds:
       - rm -rf {{.SITE_DIR}} .jekyll-cache .sass-cache .jekyll-metadata
+
+  # ---- Container (self-hosting) ---------------------------------------------
+  docker:build:
+    desc: Build the container image for the local architecture
+    cmds:
+      - docker build -t {{.IMAGE}}:local .
+
+  docker:serve:
+    desc: Run the container locally (http://localhost:8080/frc-ss/)
+    deps: [docker:build]
+    cmds:
+      - docker run --rm -p 8080:8080 {{.IMAGE}}:local
+
+  docker:push:
+    desc: Build the linux/arm64 image and push it to GHCR (needs `docker login ghcr.io`)
+    summary: |
+      Manual fallback — CI (.github/workflows/container.yml) does this
+      automatically on every push to main. The Pantry cluster's Raspberry Pi
+      workers require linux/arm64.
+    cmds:
+      - docker buildx build --platform linux/arm64 -t {{.IMAGE}}:latest --push .
 
   # ---- Linting -------------------------------------------------------------
   lint:
