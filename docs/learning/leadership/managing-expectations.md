@@ -76,9 +76,3 @@ When something is going to slip or get cut:
 - [Season Roadmap]({{ '/roadmap/' | relative_url }}) — the team's real deadlines to plan against.
 - *Making Things Happen* by Scott Berkun — project management for real teams.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list your team's key stakeholders and deadlines, and the norm for how and when delays or scope cuts get communicated.</p>
-</div>

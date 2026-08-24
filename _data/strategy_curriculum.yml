@@ -1,0 +1,112 @@
+# Strategy & Scouting curriculum.
+# Role ladder from reading the manual to alliance selection and in-event iteration.
+# `roles` define the progression; `lessons` are ordered by when they are
+# best learned and labeled with the role at which they are expected.
+
+roles:
+  - id: scout
+    name: Scout
+    emoji: "🔭"
+    summary: >-
+      Entry-level role for new members. Learn to read the game, find the highest
+      value actions, turn strategy into robot priorities, and design a scouting
+      system that collects the right data.
+  - id: veteran
+    name: Veteran Scout
+    emoji: "📊"
+    summary: >-
+      The working core. Run pit and match scouting, capture qualitative notes,
+      and turn raw sheets into rankings the drive team can actually use.
+  - id: lead
+    name: Lead Strategist
+    emoji: "📋"
+    summary: >-
+      Owns pick lists, alliance selection, pre-match plans, and in-event
+      iteration. The person who can defend a ranking with evidence — and change
+      it when the data says so.
+
+lessons:
+  - order: 1
+    slug: reading-the-game
+    title: Reading the Game
+    role: scout
+    size: 2
+    time: "1–2 hrs"
+    summary: How to read the manual, Q&A, and field drawings so strategy starts from the rules, not highlight videos.
+  - order: 2
+    slug: scoring-and-cycles
+    title: Scoring, Cycles & Penalties
+    role: scout
+    size: 2
+    time: "1–2 hrs"
+    summary: Break the game into cycles, points-per-second, and the penalties that erase a good match.
+  - order: 3
+    slug: robot-priorities
+    title: Robot Priorities
+    role: scout
+    size: 2
+    time: "1–2 hrs"
+    summary: Turn game analysis into a must / should / won't list the design and build teams can execute.
+  - order: 4
+    slug: scouting-system-design
+    title: Designing a Scouting System
+    role: scout
+    size: 2
+    time: "1–2 hrs"
+    summary: Decide what to collect, who collects it, and whether a sheet or an app will survive a Friday night.
+  - order: 5
+    slug: pit-scouting
+    title: Pit Scouting
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Photograph, interview, and record capabilities without wasting another team's time — or yours.
+  - order: 6
+    slug: match-scouting
+    title: Match Scouting
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Collect quantitative match data cleanly, with the same definitions every scout uses.
+  - order: 7
+    slug: qualitative-scouting
+    title: Qualitative & Super Scouting
+    role: veteran
+    size: 1
+    time: "45–60 min"
+    summary: Driving quality, defense, reliability, and the notes that numbers miss.
+  - order: 8
+    slug: data-analysis
+    title: Data Analysis
+    role: veteran
+    size: 3
+    time: "2–3 hrs"
+    summary: Rank teams from your data and public sources (TBA, Statbotics) without drowning in spreadsheets.
+  - order: 9
+    slug: pick-lists
+    title: Building a Pick List
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Produce a ranked list the alliance captain can defend, with first-pick and second-pick logic.
+  - order: 10
+    slug: alliance-selection
+    title: Alliance Selection
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Run or support the draft — who we want, who will accept, and what we do when the board changes.
+  - order: 11
+    slug: match-strategy
+    title: Pre-Match Strategy
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Write a one-page match plan the drive team can execute under noise.
+  - order: 12
+    slug: in-event-iteration
+    title: In-Event Iteration
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: Update rankings between matches, debrief honestly, and change the plan when the field proves you wrong.

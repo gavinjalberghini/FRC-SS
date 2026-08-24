@@ -74,9 +74,3 @@ a problem is before you even pick up a tool.
 - [WPILib: Zero to Robot](https://docs.wpilib.org/en/stable/docs/zero-to-robot/introduction.html)
 - Vendor docs: [REV Power Distribution Hub](https://docs.revrobotics.com/ion-control/pdh/overview), [CTRE](https://docs.ctr-electronics.com/)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — paste a labeled photo or diagram of your team's standard control-system layout here so new members can match the table above to real hardware.</p>
-</div>

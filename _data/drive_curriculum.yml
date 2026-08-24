@@ -1,0 +1,112 @@
+# Drive Team curriculum.
+# Role ladder from knowing the roles to running event operations.
+# `roles` define the progression; `lessons` are ordered by when they are
+# best learned and labeled with the role at which they are expected.
+
+roles:
+  - id: crew
+    name: Crew Member
+    emoji: "🎮"
+    summary: >-
+      Entry-level role for new members. Learn every drive-team role, the Driver
+      Station, match flow, and the driving fundamentals that make practice hours
+      count.
+  - id: veteran
+    name: Veteran Crew
+    emoji: "🏎️"
+    summary: >-
+      The working core. Operate mechanisms, play human-player, communicate in a
+      match, run the pre-match checklist, and fix the robot between matches.
+  - id: lead
+    name: Drive Coach
+    emoji: "🗣️"
+    summary: >-
+      Owns the alliance station. Leads inspection readiness, practice and
+      selection, and event operations so the people on the sticks can focus on
+      the match.
+
+lessons:
+  - order: 1
+    slug: drive-team-roles
+    title: Drive Team Roles
+    role: crew
+    size: 1
+    time: "45–60 min"
+    summary: Driver, operator, human player, technician, and coach — who does what in 150 seconds.
+  - order: 2
+    slug: driver-station
+    title: The Driver Station
+    role: crew
+    size: 2
+    time: "1–2 hrs"
+    summary: Enable, comms, brownouts, and the screens you actually watch during a match.
+  - order: 3
+    slug: match-flow-rules
+    title: Match Flow & Field Rules
+    role: crew
+    size: 2
+    time: "1–2 hrs"
+    summary: Auto, teleop, endgame, and the field rules that decide matches before the robot moves.
+  - order: 4
+    slug: driving-fundamentals
+    title: Driving Fundamentals
+    role: crew
+    size: 2
+    time: "2–3 hrs"
+    summary: Field sense, consistent cycles, and how to practice so hours turn into match-ready habits.
+  - order: 5
+    slug: operator-skills
+    title: Operator Skills
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Mechanism timing, button discipline, and coordinating with the driver without talking over them.
+  - order: 6
+    slug: human-player
+    title: Human Player
+    role: veteran
+    size: 1
+    time: "45–60 min"
+    summary: Game-piece rules, station timing, and communicating with the alliance without stepping on the field.
+  - order: 7
+    slug: in-match-communication
+    title: In-Match Communication
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Short callouts, a calm coach, and the words you never say with 20 seconds left.
+  - order: 8
+    slug: pre-match-checklist
+    title: Pre-Match Checklist
+    role: veteran
+    size: 2
+    time: "1 hr"
+    summary: Battery, bumpers, connection, and the last 60 seconds in the alliance station.
+  - order: 9
+    slug: pit-and-repairs
+    title: Pit Crew & Between-Match Repairs
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Diagnose fast, fix what matters, and get back in queue without making it worse.
+  - order: 10
+    slug: inspection-technician
+    title: Inspection & the Technician
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Weight, bumpers, wiring, and the conversation with the LRI that keeps you on the field.
+  - order: 11
+    slug: practice-selection
+    title: Practice Hours & Selection
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: How people earn a seat, how backups stay ready, and why logged hours beat opinions.
+  - order: 12
+    slug: event-operations
+    title: Event Operations
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: Load-in, queue, alliance-station etiquette, and the coach's job between matches.

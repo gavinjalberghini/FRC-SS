@@ -94,9 +94,3 @@ When two teammates are stuck:
 - *Getting to Yes* by Fisher & Ury — interests vs. positions, the classic on negotiation.
 - [FIRST: Gracious Professionalism](https://www.firstinspires.org/about/vision-and-mission) — the standard for how we treat each other.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's norms for handling conflict and your escalation path (which mentor to involve) for issues like harassment or safety that must go beyond peer resolution.</p>
-</div>

@@ -86,9 +86,3 @@ Most competitive robots run nearly everything on CAN.
 - [REV SPARK MAX documentation](https://docs.revrobotics.com/brushless/spark-max/overview)
 - [WPILib: CAN devices](https://docs.wpilib.org/en/stable/docs/software/can-devices/index.html)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list the specific motors and controllers your team standardizes on, plus your CAN ID numbering scheme.</p>
-</div>

@@ -83,9 +83,3 @@ How you receive feedback determines whether people keep giving it to you.
 - *Thanks for the Feedback* by Stone & Heen — the skill of receiving feedback.
 - [Programming: Code Review & Build-Season Leadership]({{ '/learning/programming/code-review-leadership/' | relative_url }}) — feedback in a technical context.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — note how and when your team runs retrospectives or feedback sessions, and any norms around how feedback is delivered here.</p>
-</div>

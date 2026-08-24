@@ -73,7 +73,3 @@ prep. This lesson covers the materials and the workflow to print them reliably.
 - Engineering materials are expensive and slow — reserve them for parts that truly
   need them, and prototype the geometry in PLA/PETG first.
 
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — record which engineering materials and nozzles your team owns, which printer is dedicated to abrasive materials, and your drying/storage setup.</p>
-</div>

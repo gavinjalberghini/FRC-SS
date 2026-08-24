@@ -76,9 +76,3 @@ not urgent."
 - [Season Roadmap]({{ '/roadmap/' | relative_url }}) — the season's deadlines and milestones.
 - *Getting Things Done* by David Allen — a personal productivity system.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — note how your team sets and revisits priorities (e.g. weekly planning), and the key deadlines that define your critical path each season.</p>
-</div>

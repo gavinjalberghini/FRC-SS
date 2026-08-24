@@ -75,9 +75,3 @@ that keep a robot running all season.
 - [Electrical: Systematic Troubleshooting]({{ '/learning/electrical/troubleshooting/' | relative_url }}) — the same disciplined mindset applies to mechanical faults.
 - [Chief Delphi](https://www.chiefdelphi.com/) — reliability and maintenance threads.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — paste your team's pre-match checklist, pit toolkit list, and critical-fastener re-torque schedule here.</p>
-</div>

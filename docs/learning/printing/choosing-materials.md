@@ -76,9 +76,3 @@ to choose.
 - [Prusa: Material table](https://help.prusa3d.com/article/material-table_2069)
 - [Simplify3D Material Guide](https://www.simplify3d.com/resources/materials-guide/)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — record which filaments and brands your team stocks, which printer each material runs on, and any team standard (e.g., "PETG for all functional parts").</p>
-</div>

@@ -75,9 +75,3 @@ concrete use cements what the port is for.
 - [WPILib: CAN devices](https://docs.wpilib.org/en/stable/docs/software/can-devices/index.html)
 - [NI roboRIO User Manual](https://www.ni.com/docs/en-US/bundle/roborio-frc-2/page/manual.html)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — record which roboRIO ports your team actually uses each season and for which device, so the next technician can trace them quickly.</p>
-</div>

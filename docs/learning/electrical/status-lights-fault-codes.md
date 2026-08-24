@@ -73,9 +73,3 @@ fault-state module look different at a glance.
 - [CTRE Phoenix — status LED references](https://v6.docs.ctr-electronics.com/en/stable/docs/hardware-reference/index.html)
 - [REV — SPARK MAX & Pneumatic Hub LED references](https://docs.revrobotics.com/)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — print or paste the exact LED/fault-code charts for the specific roboRIO, controllers, and pneumatics module your team uses, since codes vary by device and firmware.</p>
-</div>

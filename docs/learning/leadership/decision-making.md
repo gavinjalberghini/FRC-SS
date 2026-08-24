@@ -79,9 +79,3 @@ doors** deserve more care and more voices.
 - *Thinking in Bets* by Annie Duke — deciding well under uncertainty.
 - [Electrical: Systematic Troubleshooting]({{ '/learning/electrical/troubleshooting/' | relative_url }}) — the same disciplined problem-solving applied to hardware.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document which decisions are made at which level on your team (member, lead, captain, mentor) so everyone knows who decides what.</p>
-</div>

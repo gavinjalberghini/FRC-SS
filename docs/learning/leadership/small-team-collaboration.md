@@ -78,9 +78,3 @@ You build it by:
 - [Google re:Work — Psychological Safety](https://rework.withgoogle.com/) — the Project Aristotle findings.
 - [Programming: Kanban & Agile Practices]({{ '/learning/programming/kanban-agile/' | relative_url }}) — making work visible.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — capture how your team assigns roles within a subsystem and the norms you expect (e.g. how you make work visible, how decisions get made).</p>
-</div>

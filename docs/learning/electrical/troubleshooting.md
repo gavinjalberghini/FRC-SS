@@ -77,9 +77,3 @@ This catches mistakes, trains newer members, and keeps everyone safe.
 - [WPILib: Preemptive Troubleshooting](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-preemptive-troubleshooting.html)
 - [WPILib: Driver Station / diagnostics](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — adapt the verbal protocol to your team's roles and document who the certified "secondary" can be for each subsystem.</p>
-</div>

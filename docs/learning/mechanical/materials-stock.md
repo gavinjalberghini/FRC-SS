@@ -72,9 +72,3 @@ cut differently (covered in the cutting and drilling lessons).
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendors: [AndyMark](https://www.andymark.com/), [WCP](https://wcproducts.com/), [REV Robotics](https://www.revrobotics.com/), [McMaster-Carr](https://www.mcmaster.com/)
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list the stock materials and sizes your team keeps on hand, your preferred vendors, and where stock is stored and labeled.</p>
-</div>

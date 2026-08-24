@@ -73,9 +73,3 @@ different pattern. You'll learn the full code chart in
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html) — the PDH wiring steps.
 - [CTRE Power Distribution Panel](https://docs.ctr-electronics.com/) (for robots using the older PDP).
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's standard channel assignments (which breaker/fuse goes in which channel for which subsystem) so wiring is consistent year to year.</p>
-</div>

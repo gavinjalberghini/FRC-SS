@@ -74,9 +74,3 @@ responsibility when things go wrong.
 - *The Servant* by James C. Hunter — a short, story-based intro to servant leadership.
 - [FIRST: Gracious Professionalism](https://www.firstinspires.org/about/vision-and-mission) — the values context for leading in FIRST.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — describe your team's leadership structure (captains, leads, mentors) and what each role is actually responsible for, so members know how influence and authority work here.</p>
-</div>

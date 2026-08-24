@@ -77,9 +77,3 @@ Share these where the team can see them. A decision with no owner is a wish.
 - [Programming: Kanban & Agile Practices]({{ '/learning/programming/kanban-agile/' | relative_url }}) — standups and sprints in context.
 - [Atlassian: Team meeting guides](https://www.atlassian.com/team-playbook) — free meeting and retro formats.
 
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's meeting cadence (when standups and build meetings happen) and where decisions and action items are recorded.</p>
-</div>
