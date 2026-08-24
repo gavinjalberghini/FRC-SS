@@ -85,4 +85,3 @@ Most competitive robots run nearly everything on CAN.
 - [CTRE Phoenix Hardware Reference](https://v6.docs.ctr-electronics.com/en/stable/docs/hardware-reference/index.html)
 - [REV SPARK MAX documentation](https://docs.revrobotics.com/brushless/spark-max/overview)
 - [WPILib: CAN devices](https://docs.wpilib.org/en/stable/docs/software/can-devices/index.html)
-

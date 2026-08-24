@@ -73,4 +73,3 @@ a problem is before you even pick up a tool.
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html)
 - [WPILib: Zero to Robot](https://docs.wpilib.org/en/stable/docs/zero-to-robot/introduction.html)
 - Vendor docs: [REV Power Distribution Hub](https://docs.revrobotics.com/ion-control/pdh/overview), [CTRE](https://docs.ctr-electronics.com/)
-

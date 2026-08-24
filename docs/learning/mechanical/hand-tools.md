@@ -68,4 +68,3 @@ technique to use them well.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - [Chief Delphi](https://www.chiefdelphi.com/) — build technique discussion.
-

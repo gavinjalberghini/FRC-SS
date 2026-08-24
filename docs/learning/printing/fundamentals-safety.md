@@ -73,4 +73,3 @@ parts of our Bambu Lab printers, and the safety habits every operator follows.
 - [Bambu Lab Wiki](https://wiki.bambulab.com/) — official printer documentation.
 - [Bambu Lab printer comparison](https://bambulab.com/) — current lineup and specs.
 - [All3DP: How FDM works](https://all3dp.com/2/fused-deposition-modeling-fdm-3d-printing-simply-explained/)
-

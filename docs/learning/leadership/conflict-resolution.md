@@ -93,4 +93,3 @@ When two teammates are stuck:
 - *Crucial Conversations* by Patterson et al. — high-stakes disagreements.
 - *Getting to Yes* by Fisher & Ury — interests vs. positions, the classic on negotiation.
 - [FIRST: Gracious Professionalism](https://www.firstinspires.org/about/vision-and-mission) — the standard for how we treat each other.
-

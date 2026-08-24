@@ -67,4 +67,3 @@ just faster; keep fingers clear of the nose.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendors: [AndyMark](https://www.andymark.com/), [McMaster-Carr](https://www.mcmaster.com/)
-

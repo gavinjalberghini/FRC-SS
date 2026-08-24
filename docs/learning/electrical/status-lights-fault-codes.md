@@ -72,4 +72,3 @@ fault-state module look different at a glance.
 - [NI roboRIO User Manual — LED states](https://www.ni.com/docs/en-US/bundle/roborio-frc-2/page/manual.html)
 - [CTRE Phoenix — status LED references](https://v6.docs.ctr-electronics.com/en/stable/docs/hardware-reference/index.html)
 - [REV — SPARK MAX & Pneumatic Hub LED references](https://docs.revrobotics.com/)
-

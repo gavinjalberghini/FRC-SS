@@ -76,4 +76,3 @@ predictably.
 
 - *The One Minute Manager Meets the Monkey* by Blanchard — a classic on not taking work back.
 - [Programming: Kanban & Agile Practices]({{ '/learning/programming/kanban-agile/' | relative_url }}) — tracking owned work.
-

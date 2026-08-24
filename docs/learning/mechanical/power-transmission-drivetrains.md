@@ -77,4 +77,3 @@ mechanisms reduce a fast motor down to a usable speed with high torque.
 - [CAD Curriculum: Power Transmission & Gearboxes]({{ '/learning/cad/power-transmission/' | relative_url }})
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendors: [WCP](https://wcproducts.com/), [REV Robotics](https://www.revrobotics.com/), [AndyMark](https://www.andymark.com/)
-

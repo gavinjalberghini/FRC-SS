@@ -75,4 +75,3 @@ not urgent."
 
 - [Season Roadmap]({{ '/roadmap/' | relative_url }}) — the season's deadlines and milestones.
 - *Getting Things Done* by David Allen — a personal productivity system.
-

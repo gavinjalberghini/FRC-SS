@@ -75,4 +75,3 @@ to choose.
 - [Bambu Lab filament guide](https://wiki.bambulab.com/en/filament-acc/filament) — temperatures and handling.
 - [Prusa: Material table](https://help.prusa3d.com/article/material-table_2069)
 - [Simplify3D Material Guide](https://www.simplify3d.com/resources/materials-guide/)
-

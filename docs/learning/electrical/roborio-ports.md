@@ -74,4 +74,3 @@ concrete use cements what the port is for.
 - [WPILib: roboRIO pinout / accessing the I/O](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/roborio-pinout.html)
 - [WPILib: CAN devices](https://docs.wpilib.org/en/stable/docs/software/can-devices/index.html)
 - [NI roboRIO User Manual](https://www.ni.com/docs/en-US/bundle/roborio-frc-2/page/manual.html)
-

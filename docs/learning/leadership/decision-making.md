@@ -78,4 +78,3 @@ doors** deserve more care and more voices.
 
 - *Thinking in Bets* by Annie Duke — deciding well under uncertainty.
 - [Electrical: Systematic Troubleshooting]({{ '/learning/electrical/troubleshooting/' | relative_url }}) — the same disciplined problem-solving applied to hardware.
-

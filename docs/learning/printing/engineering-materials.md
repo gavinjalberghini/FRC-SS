@@ -72,4 +72,3 @@ prep. This lesson covers the materials and the workflow to print them reliably.
 
 - Engineering materials are expensive and slow — reserve them for parts that truly
   need them, and prototype the geometry in PLA/PETG first.
-

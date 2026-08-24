@@ -68,4 +68,3 @@ shop-safety training** — this lesson is that gate.
 
 - [FIRST Resource Library](https://www.firstinspires.org/resource-library) — official guidance and forms.
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
-

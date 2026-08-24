@@ -71,4 +71,3 @@ gauge or the markings on a vendor bin tell you the size.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendor hardware guides: [McMaster-Carr](https://www.mcmaster.com/), [AndyMark](https://www.andymark.com/), [WCP](https://wcproducts.com/)
-

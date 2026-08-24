@@ -83,4 +83,3 @@ Learn to recognize each of these by sight:
 
 - This lesson is purely identification. *Why* each part exists and how to build a
   board comes next in [Pneumatics 2: Purpose & Construction](../pneumatics-construction/).
-

@@ -76,4 +76,3 @@ This catches mistakes, trains newer members, and keeps everyone safe.
 
 - [WPILib: Preemptive Troubleshooting](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-preemptive-troubleshooting.html)
 - [WPILib: Driver Station / diagnostics](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html)
-

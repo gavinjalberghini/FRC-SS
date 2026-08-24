@@ -84,4 +84,3 @@ limits in the game manual.
 
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html)
 - [WPILib: Wiring Best Practices](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-preemptive-troubleshooting.html)
-

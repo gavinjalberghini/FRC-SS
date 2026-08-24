@@ -74,4 +74,3 @@ Communication isn't done when you've spoken — it's done when the other person
 
 - *Crucial Conversations* by Patterson et al. — handling high-stakes talks well.
 - [MindTools: Active Listening](https://www.mindtools.com/) — practical communication guides.
-

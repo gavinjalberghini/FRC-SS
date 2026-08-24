@@ -80,4 +80,3 @@ A season is a marathon. Protect against burnout:
 - *Drive* by Daniel Pink — autonomy, mastery, and purpose.
 - [Mission]({{ '/mission/' | relative_url }}) — the team purpose to connect work back to.
 - [FIRST: Gracious Professionalism](https://www.firstinspires.org/about/vision-and-mission)
-

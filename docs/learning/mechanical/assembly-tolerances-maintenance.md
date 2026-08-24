@@ -74,4 +74,3 @@ that keep a robot running all season.
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - [Electrical: Systematic Troubleshooting]({{ '/learning/electrical/troubleshooting/' | relative_url }}) — the same disciplined mindset applies to mechanical faults.
 - [Chief Delphi](https://www.chiefdelphi.com/) — reliability and maintenance threads.
-

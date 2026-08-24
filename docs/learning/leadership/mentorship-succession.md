@@ -82,4 +82,3 @@ Because leaders graduate, plan for it deliberately:
 - *The Leadership Pipeline* by Charan et al. — how leadership changes at each level.
 - *Multipliers* by Liz Wiseman — leaders who make everyone around them smarter.
 - [Programming: Code Review & Build-Season Leadership]({{ '/learning/programming/code-review-leadership/' | relative_url }}) — succession in a technical lead role.
-

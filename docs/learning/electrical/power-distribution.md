@@ -72,4 +72,3 @@ different pattern. You'll learn the full code chart in
 - [REV Power Distribution Hub overview](https://docs.revrobotics.com/ion-control/pdh/overview)
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html) — the PDH wiring steps.
 - [CTRE Power Distribution Panel](https://docs.ctr-electronics.com/) (for robots using the older PDP).
-

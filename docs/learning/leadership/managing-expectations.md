@@ -75,4 +75,3 @@ When something is going to slip or get cut:
 
 - [Season Roadmap]({{ '/roadmap/' | relative_url }}) — the team's real deadlines to plan against.
 - *Making Things Happen* by Scott Berkun — project management for real teams.
-

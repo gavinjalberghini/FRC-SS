@@ -86,4 +86,3 @@ Apply the general troubleshooting method to air systems:
 
 - Force calculations assume ideal conditions; real cylinders lose some force to
   friction and seal drag, so leave margin.
-

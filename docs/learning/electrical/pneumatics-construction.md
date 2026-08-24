@@ -103,4 +103,3 @@ parts:
 - Always **vent the system** with the pressure vent plug before working on it.
 - Performance math (cylinder force, recharge rate) is covered in
   [Pneumatics 3: Calculations & Troubleshooting](../pneumatics-troubleshooting/).
-

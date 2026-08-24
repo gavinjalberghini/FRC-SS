@@ -77,4 +77,3 @@ You build it by:
 
 - [Google re:Work — Psychological Safety](https://rework.withgoogle.com/) — the Project Aristotle findings.
 - [Programming: Kanban & Agile Practices]({{ '/learning/programming/kanban-agile/' | relative_url }}) — making work visible.
-
