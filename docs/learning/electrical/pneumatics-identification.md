@@ -83,8 +83,3 @@ Learn to recognize each of these by sight:
 
 - This lesson is purely identification. *Why* each part exists and how to build a
   board comes next in [Pneumatics 2: Purpose & Construction](../pneumatics-construction/).
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — add labeled photos of your team's actual pneumatic parts bin so members study the exact components they'll handle.</p>
-</div>

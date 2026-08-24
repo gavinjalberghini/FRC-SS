@@ -103,8 +103,3 @@ parts:
 - Always **vent the system** with the pressure vent plug before working on it.
 - Performance math (cylinder force, recharge rate) is covered in
   [Pneumatics 3: Calculations & Troubleshooting](../pneumatics-troubleshooting/).
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's standard board layout, hose colors/routing rules, and the inspection checklist you use before competition.</p>
-</div>

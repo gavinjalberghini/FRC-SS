@@ -84,10 +84,3 @@ limits in the game manual.
 
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html)
 - [WPILib: Wiring Best Practices](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-preemptive-troubleshooting.html)
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's standard wire colors, gauge-per-subsystem chart, label format, and preferred crimp tools/connectors here.</p>
-</div>

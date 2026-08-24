@@ -67,10 +67,3 @@ just faster; keep fingers clear of the nose.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendors: [AndyMark](https://www.andymark.com/), [McMaster-Carr](https://www.mcmaster.com/)
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's standard rivet sizes and hole sizes, your rivet tools, and where you choose rivets vs. bolts on the robot.</p>
-</div>

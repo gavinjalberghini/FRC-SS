@@ -87,8 +87,3 @@ slots, and deburring tight spots.
   <div class="callout-icon">⚠️</div>
   <p>Grinder sparks and aluminum/metal dust are a fire hazard around lithium batteries and flammables. Know where the extinguisher is and keep the area clear before grinding.</p>
 </div>
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list which abrasive tools your shop has, which require a mentor present, and your dust/spark and PPE rules.</p>
-</div>

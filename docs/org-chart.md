@@ -136,5 +136,5 @@ own — no adjective — and you add a qualifier as you grow: for example
 
 <div class="callout">
   <div class="callout-icon">🧭</div>
-  <p>Aim for a team that is mostly Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors filling gaps and keeping decisions grounded. Right-size the number of trades and leads to your team.</p>
+  <p>The shape to aim for: Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors filling gaps and keeping decisions grounded. If a trade cannot staff a student lead, combine it with an adjacent trade rather than leaving an empty chair.</p>
 </div>

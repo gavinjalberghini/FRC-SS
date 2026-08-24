@@ -81,10 +81,3 @@ Before working on robot wiring, put it in a known safe state:
 
 - [FRC Game Manual](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system) — the authoritative source for legal fusing and wiring.
 - [WPILib: Intro to FRC Robot Wiring](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-1/intro-to-frc-robot-wiring.html) — note the repeated polarity-check warnings.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's specific shop safety rules here: required PPE, battery charging area procedures, who is allowed to connect power, and your fire-extinguisher locations.</p>
-</div>

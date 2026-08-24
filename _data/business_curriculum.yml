@@ -1,0 +1,113 @@
+# Business & Outreach curriculum.
+# Role ladder for funding, storytelling, awards, and community impact.
+# `roles` define the progression; `lessons` are ordered by when they are
+# best learned and labeled with the role at which they are expected.
+
+roles:
+  - id: advocate
+    name: Advocate
+    emoji: "📣"
+    summary: >-
+      Entry-level role for new members. Learn why business work matters, how to
+      tell the team's story, how a season budget is built, and how sponsorship
+      actually works.
+  - id: veteran
+    name: Veteran Advocate
+    emoji: "🤝"
+    summary: >-
+      The working core. Write outreach, steward sponsors, plan events, measure
+      impact, and know the awards landscape well enough to contribute real
+      artifacts — not just ideas.
+  - id: lead
+    name: Lead Advocate
+    emoji: "🏆"
+    summary: >-
+      Owns the team's public story. Leads the Impact submission, judge interviews,
+      communications, and the year-round calendar so funding and awards survive
+      graduation.
+
+lessons:
+  - order: 1
+    slug: why-business-matters
+    title: Why Business Work Matters
+    role: advocate
+    size: 1
+    time: "45–60 min"
+    summary: Technical and non-technical work are equal — and a team without funding, story, or community does not last.
+  - order: 2
+    slug: team-story-brand
+    title: Team Story & Brand
+    role: advocate
+    size: 2
+    time: "1–2 hrs"
+    summary: Write a one-sentence pitch, a one-paragraph story, and the visual rules that keep every poster consistent.
+  - order: 3
+    slug: season-budget
+    title: Season Budget
+    role: advocate
+    size: 2
+    time: "1–2 hrs"
+    summary: Build and track a season budget — registration, travel, parts, and the reserve you protect.
+  - order: 4
+    slug: sponsorship-fundamentals
+    title: Sponsorship Fundamentals
+    role: advocate
+    size: 2
+    time: "1–2 hrs"
+    summary: What sponsors actually buy, how to research a prospect, and what a fair sponsorship package looks like.
+  - order: 5
+    slug: sponsor-outreach
+    title: Sponsor Outreach & Stewardship
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Write the ask, run the meeting, deliver what you promised, and keep the relationship after the check clears.
+  - order: 6
+    slug: outreach-events
+    title: Planning Outreach Events
+    role: veteran
+    size: 2
+    time: "2–3 hrs"
+    summary: Design a demo, school visit, or community event with a goal, a run-of-show, and a way to follow up.
+  - order: 7
+    slug: measuring-impact
+    title: Measuring Community Impact
+    role: veteran
+    size: 2
+    time: "1–2 hrs"
+    summary: Count what matters — people reached, hours given, stories captured — so impact is evidence, not vibes.
+  - order: 8
+    slug: awards-landscape
+    title: The FRC Awards Landscape
+    role: veteran
+    size: 1
+    time: "45–60 min"
+    summary: Impact, Engineering Inspiration, Judges, Dean's List, and how awards are actually judged.
+  - order: 9
+    slug: impact-award
+    title: The Impact Award Submission
+    role: lead
+    size: 3
+    time: "Multi-session"
+    summary: Essay, supporting docs, and a season-long evidence file that can survive a judge panel.
+  - order: 10
+    slug: judge-interviews
+    title: Judge Interviews & Pit Talks
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Prepare a short talk, answer hard questions, and run a pit that judges can understand in two minutes.
+  - order: 11
+    slug: communications-media
+    title: Communications & Media
+    role: lead
+    size: 2
+    time: "1–2 hrs"
+    summary: Social, press, photos, and what never gets posted — a communications standard that protects students and sponsors.
+  - order: 12
+    slug: year-round-leadership
+    title: Year-Round Business Leadership
+    role: lead
+    size: 2
+    time: "Ongoing"
+    summary: The calendar after the last event, grant timing, succession, and how next year's funding is won this spring.

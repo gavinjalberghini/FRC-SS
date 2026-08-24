@@ -90,10 +90,3 @@ stroke, and follow up with a file to true the edge.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - [Chief Delphi](https://www.chiefdelphi.com/) — fabrication technique threads.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list your shop's specific saws, which require a mentor present, blade types for each material, and your team's stop-and-ask rules.</p>
-</div>

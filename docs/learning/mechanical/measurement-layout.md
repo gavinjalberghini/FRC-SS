@@ -94,8 +94,3 @@ To convert any fraction, divide the top by the bottom (3 ÷ 8 = 0.375).
 - When a drawing gives a dimension with a tolerance (e.g. 2.000 ± 0.005), the
   decimal places tell you how precise to be — that's a calipers job, not a tape
   job.
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — note which measuring tools your shop stocks (tape, calipers, height gauge) and your team's drawing/units conventions.</p>
-</div>

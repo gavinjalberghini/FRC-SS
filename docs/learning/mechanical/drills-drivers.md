@@ -86,10 +86,3 @@ driven fasteners.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - [Chief Delphi](https://www.chiefdelphi.com/) — tool technique threads.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list the specific drills/drivers and bit sets your shop uses, your battery-charging procedure, and which tasks require a mentor present.</p>
-</div>

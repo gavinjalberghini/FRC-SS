@@ -1,0 +1,79 @@
+---
+layout: default
+title: Business & Outreach Curriculum
+permalink: /learning/business-outreach/
+---
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ '/learning/' | relative_url }}">Learning Hub</a> &middot; Business &amp; Outreach</p>
+    <h1>Business &amp; Outreach Curriculum</h1>
+    <p class="lede">
+      A role-based path for the people who fund the team, tell its story, and
+      grow its community. Work through the lessons in order: each one builds on
+      the last, from a one-sentence pitch to an Impact submission a judge panel
+      can trust.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Roles</h2>
+    <p class="section-intro">
+      Advocates grow through three roles. Each role is earned by completing the
+      lessons labeled for it (and everything before it) and demonstrating the
+      skills with real sponsors, events, or awards work.
+    </p>
+
+    <div class="role-overview">
+      {% for role in site.data.business_curriculum.roles %}
+      <div class="role-card">
+        <div class="role-emoji">{{ role.emoji }}</div>
+        <h3><span class="badge badge-{{ role.id }}">{{ role.name }}</span></h3>
+        <p>{{ role.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="wrap">
+    <h2>Lesson roadmap</h2>
+    <p class="section-intro">
+      Lessons are ordered by when they are best learned. The badge on each lesson
+      shows the role it belongs to.
+    </p>
+
+    <div class="roadmap">
+      {% for role in site.data.business_curriculum.roles %}
+      <div class="roadmap-group">
+        <h3 class="roadmap-group-title">
+          <span class="badge badge-{{ role.id }}">{{ role.emoji }} {{ role.name }}</span>
+        </h3>
+        {% assign role_lessons = site.data.business_curriculum.lessons | where: "role", role.id | sort: "order" %}
+        {% for lesson in role_lessons %}
+        <a class="lesson-row" href="{{ '/learning/business-outreach/' | append: lesson.slug | append: '/' | relative_url }}">
+          <span class="lesson-num">{{ lesson.order }}</span>
+          <span class="lesson-info">
+            <h4>{{ lesson.title }}</h4>
+            <p>{{ lesson.summary }}</p>
+          </span>
+          <span class="lesson-size">Effort {{ lesson.size }}/3 &middot; {{ lesson.time }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="callout">
+      <div class="callout-icon">🤝</div>
+      <p>
+        <strong>Non-technical work is not extra credit.</strong> A robot that
+        cannot travel, a team that cannot tell its story, and a community that
+        never hears from you are all failures of the same trade.
+      </p>
+    </div>
+  </div>
+</section>

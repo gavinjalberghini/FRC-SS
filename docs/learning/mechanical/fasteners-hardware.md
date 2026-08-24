@@ -71,10 +71,3 @@ gauge or the markings on a vendor bin tell you the size.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Vendor hardware guides: [McMaster-Carr](https://www.mcmaster.com/), [AndyMark](https://www.andymark.com/), [WCP](https://wcproducts.com/)
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's standard fastener sizes (e.g. #10-32 vs metric), preferred thread locker, and where your hardware is stored/labeled.</p>
-</div>

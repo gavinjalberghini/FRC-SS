@@ -80,10 +80,3 @@ drill diameter and a clearance drill diameter.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - Tap/drill charts: [McMaster-Carr](https://www.mcmaster.com/)
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — post your shop's tap/drill chart for the thread sizes you use, the drill press speeds for aluminum, and which operations require a mentor.</p>
-</div>

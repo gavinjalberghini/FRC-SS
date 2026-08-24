@@ -65,5 +65,3 @@ software effort through a build season.
 
 - The best leaders make themselves replaceable: document decisions and grow the
   next set of leads so the team stays strong year over year.
-- This area is still being built out — add team-specific review checklists and
-  build-season playbooks here as the team develops them.

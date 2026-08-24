@@ -74,10 +74,3 @@ Communication isn't done when you've spoken — it's done when the other person
 
 - *Crucial Conversations* by Patterson et al. — handling high-stakes talks well.
 - [MindTools: Active Listening](https://www.mindtools.com/) — practical communication guides.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's communication norms: which channels you use for what (chat, email, meetings), expected response times, and who to escalate to.</p>
-</div>

@@ -62,13 +62,14 @@ breaks the year into phases so the team always knows what comes next.
 
   <div class="timeline-item">
     <span class="phase-tag">Phase 5 · February</span>
-    <h3>Test, Drive Practice &amp; Bag/Tag</h3>
-    <p>Make the robot reliable and the drive team practiced.</p>
+    <h3>Test, Drive Practice &amp; Inspection</h3>
+    <p>Make the robot reliable, the drive team practiced, and the pit ready.</p>
     <ul>
-      <li>Run driver and operator practice on a real field element setup.</li>
-      <li>Tune autonomous and fix reliability issues found in testing.</li>
-      <li>Prepare the pit, spare parts, and tools; finalize scouting plan.</li>
-      <li>Document the robot and create a pre-match checklist.</li>
+      <li>Get the robot onto a practice field (or a mock field with game elements) and log real driver and operator hours.</li>
+      <li>Hunt reliability: repeat mechanisms until they work every cycle, then fix the failures testing finds.</li>
+      <li>Tune autonomous and verify it on a full field, not just in the shop.</li>
+      <li>Work the inspection checklist early — weight, bumpers, wiring, pneumatics, labeling — so the first event is not the first inspection.</li>
+      <li>Stage the pit: spare parts, tools, batteries, bumpers, and a written pre-match checklist.</li>
     </ul>
   </div>
 

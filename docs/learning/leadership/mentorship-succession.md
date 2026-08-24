@@ -58,9 +58,8 @@ Because leaders graduate, plan for it deliberately:
 - **Identify and grow successors early** — don't wait for your final month.
 - **Spread knowledge**, don't hoard it — no single point of failure (including
   you). Pair and cross-train.
-- **Document** the things only you know — processes, contacts, hard-won lessons.
-  (Every lesson's "Notes" placeholder in this playbook is a place to do exactly
-  that.)
+- **Document** the things only you know — processes, contacts, hard-won lessons —
+  in the playbook and the team's working docs so they survive graduation.
 - **Hand off gradually** — let successors lead while you can still coach, not all
   at once on your way out.
 
@@ -83,10 +82,3 @@ Because leaders graduate, plan for it deliberately:
 - *The Leadership Pipeline* by Charan et al. — how leadership changes at each level.
 - *Multipliers* by Liz Wiseman — leaders who make everyone around them smarter.
 - [Programming: Code Review & Build-Season Leadership]({{ '/learning/programming/code-review-leadership/' | relative_url }}) — succession in a technical lead role.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — document your team's succession plan: how leads are selected and trained, and where institutional knowledge (contacts, processes, lessons learned) is kept between generations.</p>
-</div>

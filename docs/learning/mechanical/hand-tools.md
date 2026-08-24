@@ -68,10 +68,3 @@ technique to use them well.
 
 - [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
 - [Chief Delphi](https://www.chiefdelphi.com/) — build technique discussion.
-
-## Notes
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — list the hand tools in your shop's standard kit and your team's expectations for keeping tools organized and accounted for.</p>
-</div>

@@ -86,8 +86,3 @@ Apply the general troubleshooting method to air systems:
 
 - Force calculations assume ideal conditions; real cylinders lose some force to
   friction and seal drag, so leave margin.
-
-<div class="callout">
-  <div class="callout-icon">📌</div>
-  <p>Placeholder — record your team's standard working pressure, accumulator count, and the measured strokes-per-charge for your competition mechanisms.</p>
-</div>

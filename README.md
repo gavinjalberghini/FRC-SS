@@ -9,8 +9,8 @@ robotics team**. It's meant to be a living, team-editable home for:
 - **Season Roadmap** (`/roadmap/`) — a phase-by-phase plan for the year.
 - **Learning Hub** (`/learning/`) — role-based resources for every member.
 
-> The current content is a **stub/template**. Replace the placeholder text with
-> your team's real details (mission, names, vendors, links, etc.).
+> This repo is the playbook itself — mission, org, decisions, contract, season
+> plan, and the role-based learning tracks — not a blank to fill in later.
 
 ## Project structure
 
@@ -41,10 +41,12 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 └── package.json           # Node deps (markdownlint, stylelint, prettier)
 ```
 
-## Configure for your team
+## Site settings
 
-Edit `_config.yml` and update the `team:` block (number, name, region) and the
-`title`/`tagline`. Update `baseurl` to match how the site is served (see below).
+`_config.yml` holds the site `title`, `tagline`, and `baseurl`. Leave `baseurl`
+as `/FRC-SS` for GitHub Pages; the deploy workflow also sets it via
+`configure-pages`. Use `""` only for a custom domain or a local preview without
+the project path.
 
 ## Local development & tooling
 

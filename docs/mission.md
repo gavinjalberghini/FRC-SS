@@ -78,5 +78,5 @@ responsibility.
 
 <div class="callout">
   <div class="callout-icon">📝</div>
-  <p>Use this page to align the whole team. Revisit it at the start of each season and edit it together.</p>
+  <p>This is the team's north star. Revisit it at the start of each season so the values stay practiced, not framed.</p>
 </div>
