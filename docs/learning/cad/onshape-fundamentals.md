@@ -93,19 +93,24 @@ link, not a progress bar on this website.
    - [Exercise 1: First Tubes](https://frcdesign.org/learning-course/stage1/1a/section1-exercise1/)
      — Sketch a rectangle, extrude it as **New**, run Tube Converter.
      Change length and watch the tube follow.
-   - **Exercise 2: More Tubes (cross rails).** Add cross rails. Pick the
-     extrude end condition so parts land in the right place. Change part
-     **appearance**. Confirm tubes do not overlap.
-   - **Exercise 3: Sketch Basics.** Practice constraints and dimensions
-     until the sketch turns black. If a line stays blue, you are missing a
-     coincident, equal, or dimension — do not leave it.
-   - **Exercise 4: Drivetrain Frame.** Sketch and extrude a full drivetrain
-     frame, then tube-convert it. **Mirror across both X and Y** using
-     construction lines through the origin. Do not draw both sides by hand.
-     Avoid over-dimensioning; symmetry should close the sketch.
-   - **Exercise 5: Box Frame.** Build a rectangular box frame.
-   - **Exercise 6: Triangle Frame.** Build an angled / triangular frame so
-     non-orthogonal geometry is not a surprise later.
+   - [Exercise 2: More Tubes (cross rails)](https://frcdesign.org/learning-course/stage1/1a/section1-exercise2/)
+     — Add cross rails. Pick the extrude end condition so parts land in
+     the right place. Change part **appearance**. Confirm tubes do not
+     overlap.
+   - [Exercise 3: Sketch Basics](https://frcdesign.org/learning-course/stage1/1a/section1-exercise3/)
+     — Practice constraints and dimensions until the sketch turns black.
+     If a line stays blue, you are missing a coincident, equal, or
+     dimension — do not leave it.
+   - [Exercise 4: Drivetrain Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise4/)
+     — Sketch and extrude a full drivetrain frame, then tube-convert it.
+     **Mirror across both X and Y** using construction lines through the
+     origin. Do not draw both sides by hand. Avoid over-dimensioning;
+     symmetry should close the sketch.
+   - [Exercise 5: Box Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise5/)
+     — Build a rectangular box frame.
+   - [Exercise 6: Triangle Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise6/)
+     — Build an angled / triangular frame so non-orthogonal geometry is
+     not a surprise later.
 
    After each studio, name the parts (`Left rail`, `Front cross`, not
    `Part 3`). Orbit the model and look for overlapping solids.
@@ -141,10 +146,12 @@ link, not a progress bar on this website.
      a circular pattern for modules.
    - [Exercise 3: Gusset Setup](https://frcdesign.org/learning-course/stage1/1a/section3-exercise3/)
      — Model the remaining gusset that the next assembly needs.
-   - **Exercise 4: Full Frame.** Assemble the complete drivetrain frame.
-   - **Exercise 5: Finishing the Frame.** Final fasteners, checks, and
-     cleanup so the drivebase looks like something you would send to a
-     mentor, not a pile of unnamed instances.
+   - [Exercise 4: Full Frame](https://frcdesign.org/learning-course/stage1/1a/section3-exercise4/)
+     — Assemble the complete drivetrain frame.
+   - [Exercise 5: Finishing the Frame](https://frcdesign.org/learning-course/stage1/1a/section3-exercise5/)
+     — Final fasteners, checks, and cleanup so the drivebase looks like
+     something you would send to a mentor, not a pile of unnamed
+     instances.
 
 6. **Sanity-check and write one design note.** Orbit every finished studio
    and assembly. Sketches should be black. Parts should be named. Solids
@@ -176,6 +183,11 @@ link, not a progress bar on this website.
 - [Stage 1A setup (copy the document here)](https://frcdesign.org/learning-course/stage1/1a/section1-setup/)
 - [Exercise 0: Navigation](https://frcdesign.org/learning-course/stage1/1a/section1-exercise0/)
 - [Exercise 1: First Tubes](https://frcdesign.org/learning-course/stage1/1a/section1-exercise1/)
+- [Exercise 2: Cross Rails](https://frcdesign.org/learning-course/stage1/1a/section1-exercise2/)
+- [Exercise 3: Sketch Basics](https://frcdesign.org/learning-course/stage1/1a/section1-exercise3/)
+- [Exercise 4: Drivetrain Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise4/)
+- [Exercise 5: Box Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise5/)
+- [Exercise 6: Triangle Frame](https://frcdesign.org/learning-course/stage1/1a/section1-exercise6/)
 - [Section 2 Exercise 1: Plate Workflow](https://frcdesign.org/learning-course/stage1/1a/section2-exercise1/)
 - [Section 2 Exercise 2: Gusset](https://frcdesign.org/learning-course/stage1/1a/section2-exercise2/)
 - [Section 2 Exercise 3: Superstructure Gussets](https://frcdesign.org/learning-course/stage1/1a/section2-exercise3/)
@@ -183,6 +195,8 @@ link, not a progress bar on this website.
 - [Section 3 Exercise 1: Rivets](https://frcdesign.org/learning-course/stage1/1a/section3-exercise1/)
 - [Section 3 Exercise 2: Swerve Drive](https://frcdesign.org/learning-course/stage1/1a/section3-exercise2/)
 - [Section 3 Exercise 3: Gusset Setup](https://frcdesign.org/learning-course/stage1/1a/section3-exercise3/)
+- [Section 3 Exercise 4: Full Frame](https://frcdesign.org/learning-course/stage1/1a/section3-exercise4/)
+- [Section 3 Exercise 5: Finishing the Frame](https://frcdesign.org/learning-course/stage1/1a/section3-exercise5/)
 - [Using the Tube Converter FeatureScript](https://onshape4frc.com/blog/using-tube-converter/)
 - [Onshape Learning Center](https://learn.onshape.com/)
 - [Onshape Fundamentals pathway](https://learn.onshape.com/learn/learning-path/onshape-fundamentals)

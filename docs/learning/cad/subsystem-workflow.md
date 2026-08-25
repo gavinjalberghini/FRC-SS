@@ -159,6 +159,7 @@ in your account. Mentors review a share link.
 - [Exercise 2: Mounting Electronics](https://frcdesign.org/learning-course/stage1/1e/exercise2/)
 - [Exercise 3: Bellypan Pocketing](https://frcdesign.org/learning-course/stage1/1e/exercise3/)
 - [Exercise 4: Bumpers](https://frcdesign.org/learning-course/stage1/1e/exercise4/)
+- [Exercise 5: Bumper Mounting](https://frcdesign.org/learning-course/stage1/1e/exercise5/)
 - [FRC game manual, Q&A, and field drawings](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
 - [Onshape Learning Center](https://learn.onshape.com/)
 - [Top-Down Design Methodology](../design-methodology/)
