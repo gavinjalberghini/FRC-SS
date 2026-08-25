@@ -14,5 +14,8 @@ _site/
 # Node tooling used for local linting/formatting
 node_modules/
 
+# Portable ticket export (`task tickets:export`)
+/dist/
+
 # Gemfile.lock is intentionally committed for reproducible CI builds
 # (we deploy with our own Gemfile via GitHub Actions, not the pages-gem).

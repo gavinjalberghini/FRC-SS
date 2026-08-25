@@ -74,6 +74,17 @@ tasks:
     cmds:
       - docker buildx build --platform linux/arm64 -t {{.IMAGE}}:latest --push .
 
+  # ---- Learning tickets ----------------------------------------------------
+  tickets:list:
+    desc: Print the GitHub issue titles that would be created from the lessons
+    cmds:
+      - python3 scripts/create_issues.py --dry-run
+
+  tickets:export:
+    desc: Write portable ticket markdown (no Jekyll front matter) to dist/tickets
+    cmds:
+      - python3 scripts/create_issues.py --dry-run --export-dir dist/tickets
+
   # ---- Linting -------------------------------------------------------------
   lint:
     desc: Run all linters (Markdown, SCSS, formatting)
