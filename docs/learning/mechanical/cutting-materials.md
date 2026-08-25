@@ -9,84 +9,147 @@ size: 3
 time: "2–3 hrs"
 ---
 
-## Overview
+## Description
 
-Cutting stock to length is one of the most common — and most dangerous — shop
-jobs. A square, accurate cut makes the rest of a part easy; a bad cut wastes
-material and throws off the whole assembly. This lesson covers the saws you'll
-use to cut aluminum and plastic, how to measure and mark for a cut, and how to do
-it safely.
+This is the first ticket where a machine can take a finger. Read that
+again. [Shop Safety & PPE](../shop-safety/) is not a suggestion here —
+if a mentor has not signed you off, you do not turn a saw on. Glasses,
+hearing protection on the chop saw, hair and strings secured, **gloves
+off while the blade is moving.** Gloves can go back on to carry a
+*stopped*, cooled part.
+
+You already know how to mark a square line and leave room for kerf from
+[Measurement & Layout](../measurement-layout/), what tube you are
+holding from [Materials & Stock](../materials-stock/), and how a
+hacksaw cut should look from [Hand Tools](../hand-tools/). This ticket
+is the same cut, on the bandsaw and the chop/miter saw, to a length a
+mentor can check with a square and calipers.
+
+**Kerf** is the slot the blade erases. A typical metal bandsaw is about
+1/16 in; an abrasive chop saw can be more. If you need two 6 in keepers
+from one stick, you do not mark 6 and 12. You mark 6, then 6 plus kerf,
+or you will hand the second person a 5-15/16 in leftover and a shrug.
+Always cut on the **waste side** of the line. The line is the part.
+
+A **vertical bandsaw** (the one with a table) is the everyday aluminum
+and polycarb cutter. Set the upper blade guide just above the work so
+the blade is supported and less of it is exposed. Feed slowly and
+steadily — forcing the work twists the blade and the cut comes out
+banana-shaped. Hands stay to the sides of the blade path, never in
+line with it. Short pieces get a **push stick**, not fingers. If the
+blade binds, stop the saw before you back out. Do not leave a running
+saw to go find a square.
+
+A **horizontal bandsaw** clamps the tube in a vise and the head feeds
+down. Clamp every time. Support long stock so it does not pinch the
+blade as the cut closes. OSHA's own horizontal-bandsaw trainer script
+exists because people skip the vise.
+
+A **chop saw or non-ferrous miter saw** is faster and louder. Clamp
+the stock in the saw's vise — never hand-hold against a spinning
+wheel or blade. Bring the blade up to speed, then lower it; do not
+slam. Wait for a **full stop** before you reach for the part. The
+cut end is often hot. Hearing protection is not optional.
+
+Hand saws still win for a 2 in leftover, a pit repair, or a piece
+that will not fit the machine. Same rules as the hacksaw ticket.
+
+After every machine cut: **deburr**, then **check length and square**
+before you walk away. A pretty spark shower that is 3/16 in short is
+scrap.
 
 ## Prerequisites
 
-- [Shop Safety & PPE](../shop-safety/), [Measurement & Layout](../measurement-layout/), and [Materials & Stock](../materials-stock/).
+- [Shop Safety & PPE](../shop-safety/) signed off. No sign-off, no
+  saw.
+- [Measurement & Layout](../measurement-layout/) and
+  [Materials & Stock](../materials-stock/) completed.
+- [Hand Tools](../hand-tools/) completed — you need a hacksaw
+  standard to compare.
 
 ## What you'll learn
 
-- How to measure, mark, and account for blade kerf before cutting.
-- Safe operation of the bandsaw and the chop/miter saw.
-- When to reach for a hand saw instead.
-- How to get square, accurate, burr-free cuts.
+- How to mark a cut, name the keeper, and leave room for kerf.
+- How to make a mentor-supervised square cut on the shop's bandsaw.
+- How to clamp and cut on the chop/miter saw, including one angle.
+- How to deburr and prove the length with a square and calipers.
 
-## Unit 1 — Measure, mark, and plan the cut
+## Tasks
 
-- **Measure twice.** Confirm the length against the drawing before you mark.
-- **Mark a clear line** with the combination square so it's square to the stock.
-- **Account for kerf** — the blade removes material (a kerf's width). Always cut
-  on the **waste side** of your line, and plan multiple parts so kerf losses
-  don't add up against you.
-- **Plan the keeper.** Know which side of the cut is your part and clamp/support
-  the offcut so it can't bind or fall onto the blade.
+1. **Read a real saw briefing, then walk this shop's saws.** Read the
+   OSHA
+   [horizontal band saw trainer script](https://www.osha.gov/sites/default/files/2021-04/Horizontal%20Band%20Saw%20-%20Trainer%20Script.pdf)
+   (it is short) and skim a vertical-saw briefing such as
+   [Georgia Tech's metal band saw notes](https://www.me.gatech.edu/sites/default/files/2024-09/Metal_Vertical_Bandsaw_PDF.pdf).
+   Then stand at *this* shop's saws with a mentor. Point to: power
+   switch / e-stop, blade guide, vise or fence, and the guard. If a
+   guard is missing, you do not cut. Write which saws the shop
+   actually has (vertical, horizontal, abrasive chop, tooth miter).
 
-## Unit 2 — The bandsaw
+2. **Mark the cut on scrap.** Use a leftover 1×1 or 2×1 from
+   [Materials & Stock](../materials-stock/) or the marked piece from
+   measurement. Mentor names a length (for example 3-3/8 in). You
+   measure twice, square the line, write **KEEP** and **WASTE**, and
+   say out loud how much kerf you are leaving. Do not cut yet.
 
-A bandsaw uses a continuous looped blade and is the go-to for cutting aluminum
-tube, plate, and plastic.
+3. **First bandsaw cut, mentor at your shoulder.** Glasses on, gloves
+   off, guide set just above the work. Make the crosscut. Feed; do
+   not shove. Use a push stick if the leftover is short. Stop the
+   saw and wait for the blade to stop before you pick up either
+   piece. Deburr. Check length with calipers and square with a
+   combination square. Write the measured length on the keeper.
 
-- **Setup:** set the upper blade guide just above the workpiece to support the
-  blade. Use the fence or miter gauge for straight/angled cuts.
-- **Operation:** feed the material **slowly and steadily** into the blade; let the
-  blade cut at its own pace — forcing it deflects the blade and ruins the cut.
-- **Hands:** keep them clear of the blade path and to the sides, never in line
-  with the blade. Use a push block for short pieces.
-- **Don't back out** of a long cut with the saw running unless you must; stop if
-  the blade binds.
+4. **Chop or miter saw, clamped.** If the shop has one, make a
+   second square cut on a new mark, stock clamped in the saw vise
+   every time. Then set a simple angle the mentor names (often 45°)
+   and make one angled cut. Hearing protection on. Blade up to
+   speed, then down. Full stop before hands move. If the shop has
+   no chop saw, skip this task and make a second bandsaw cut
+   instead — say so on the sign-off.
 
-## Unit 3 — The chop saw / miter saw
+5. **Compare to the hacksaw piece.** Hold the machine-cut end next
+   to your [Hand Tools](../hand-tools/) hacksaw cut. Tell a mentor
+   which is squarer and why you would still keep a hacksaw in the
+   pit kit.
 
-A chop (abrasive) or miter (toothed, often non-ferrous-rated) saw makes fast
-crosscuts and angles in tube and bar.
+6. **Clean the station.** Chips off the table, offcuts in the scrap
+   bin, floor clear. A dirty saw is how the next person slips.
 
-- **Clamp the stock** in the saw's vise/fence every time — never hand-hold against
-  a chop saw.
-- Set the **angle** (90° or a miter) and verify it before cutting.
-- **Bring the blade up to speed**, then lower it into the cut smoothly; don't slam
-  it down.
-- Let the blade **stop** before lifting and before reaching for the part. Parts
-  and chips are **hot** right after cutting — let them cool or use gloves to
-  handle (after the blade has stopped).
-- Hearing and eye protection are required.
+## Acceptance Criteria
 
-## Unit 4 — Hand saws
-
-For small jobs, tight spaces, or when a machine is overkill, use a **hacksaw**
-(metal) or fine-tooth saw for polycarbonate. Clamp the work, cut on the push
-stroke, and follow up with a file to true the edge.
-
-## Unit 5 — Finishing the cut
-
-- **Deburr every cut edge** — drilling and assembly depend on clean, flat,
-  burr-free ends, and burrs cut hands.
-- **Check the length and squareness** with calipers and a square before moving on.
-
-## Steps & acceptance criteria
-
-- [ ] Measure, mark square, and identify the waste side accounting for kerf.
-- [ ] Make a safe, square crosscut on the bandsaw with proper hand position.
-- [ ] Make a clamped, square cut on the chop/miter saw, including an angled cut.
-- [ ] Deburr and verify a finished cut to length within tolerance.
+- [ ] You pointed to the off switch, guide or vise, and guard on
+      each saw the shop has, after reading a bandsaw briefing.
+- [ ] A named keeper is marked KEEP/WASTE with kerf spoken before
+      the cut.
+- [ ] A mentor-supervised bandsaw crosscut exists: square, deburred,
+      length written on the part and within about 1/32 in of the
+      called length (or the tolerance the mentor names).
+- [ ] A clamped chop/miter cut exists, plus one angled cut — or a
+      second bandsaw cut with a written note that the shop has no
+      chop saw.
+- [ ] Gloves were off while blades moved. A mentor was present for
+      every powered cut.
+- [ ] The station was cleaned.
 
 ## Resources
 
-- [WPILib: Hardware Basics](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/index.html)
-- [Chief Delphi](https://www.chiefdelphi.com/) — fabrication technique threads.
+- [OSHA: Horizontal band saw trainer script (PDF)](https://www.osha.gov/sites/default/files/2021-04/Horizontal%20Band%20Saw%20-%20Trainer%20Script.pdf)
+- [Georgia Tech: Metal vertical bandsaw notes (PDF)](https://www.me.gatech.edu/sites/default/files/2024-09/Metal_Vertical_Bandsaw_PDF.pdf)
+- [OSHA 1910.212 — Machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212)
+- [FIRST Safety Manual (PDF)](https://www.firstinspires.org/hubfs/web/program/all/safety-manual.pdf?hsLang=en)
+- [Popular Mechanics: How to Use a Hacksaw](https://www.popularmechanics.com/home/a42461426/how-to-use-a-hacksaw/)
+- [AndyMark: Pre-drilled box tube](https://andymark.com/products/pre-drilled-box-tube-extrusion) —
+  know what you are cutting before you cut it
+- [Chief Delphi](https://www.chiefdelphi.com/) — search "bandsaw
+  aluminum" for blade and feed advice
+
+## Notes
+
+- Polycarb melts if you feed it like aluminum on a dull blade. Support
+  it, use a fine blade, and do not let it climb.
+- Never cut steel on a blade the shop reserved for aluminum unless a
+  mentor says that blade is for steel. Steel will ruin an aluminum
+  blade in one stick.
+- The next ticket, [Drilling & Tapping](../drilling-tapping/), puts
+  holes and threads in the parts you can now cut to length. Drill
+  press. Gloves still off.
