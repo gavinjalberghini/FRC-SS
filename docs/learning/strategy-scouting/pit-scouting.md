@@ -129,7 +129,7 @@ mentor sets that up.
 
 ## Acceptance Criteria
 
-- [ ] A pit card exists with the Unit-1 fields and no extras that force
+- [ ] A pit card exists with the Task 1 fields and no extras that force
       a fourth minute.
 - [ ] You can ask the three good questions without reading them.
 - [ ] Three filled cards exist from TBA media and/or practice video,
