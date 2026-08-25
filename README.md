@@ -7,7 +7,9 @@ robotics team**. It's meant to be a living, team-editable home for:
 - **Org Chart** (`/org-chart/`) — roles, responsibilities, and structure.
 - **Team Contract** (`/contract/`) — conduct, commitment, and safety expectations.
 - **Season Roadmap** (`/roadmap/`) — a phase-by-phase plan for the year.
-- **Learning Hub** (`/learning/`) — role-based resources for every member.
+- **Learning Hub** (`/learning/`) — role-based learning tickets for every member.
+  Export them into a team's own GitHub with `scripts/create_issues.py`; this
+  site does not track student work. See `tickets/README.md`.
 
 > This repo is the playbook itself — mission, org, decisions, contract, season
 > plan, and the role-based learning tracks — not a blank to fill in later.
@@ -20,6 +22,8 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 
 ```text
 .
+├── tickets/               # How to author and export learning tickets
+├── scripts/               # create_issues.py — publish tickets to a team's GitHub
 ├── docs/                  # All written content (pages)
 │   ├── index.html         #   Home page (permalink: /)
 │   ├── mission.md         #   Mission & values

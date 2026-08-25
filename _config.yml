@@ -33,3 +33,6 @@ exclude:
   - Taskfile.yml
   - Dockerfile
   - .dockerignore
+  - scripts
+  - tickets
+  - dist
