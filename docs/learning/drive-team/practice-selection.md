@@ -38,7 +38,7 @@ standard is secret, selection will look like favoritism even when it is
 not.
 
 Mentors stay in the process the way the
-[Decision-Making Guide](../../decision-making/) requires. They do not
+[Decision-Making Guide]({{ '/decision-making/' | relative_url }}) requires. They do not
 grab a controller to "break the tie." A fast driver who cannot hear a
 call is not ready. Practice hours beat opinions.
 
@@ -52,7 +52,7 @@ below.
   if it is thin.
 - [In-Match Communication](../in-match-communication/) — a script
   exists.
-- The [Decision-Making Guide](../../decision-making/).
+- The [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
 - [Leadership: Feedback](../../leadership/feedback/) if you will be the
   person who tells someone they were not selected.
 
@@ -141,11 +141,11 @@ below.
 ## Resources
 
 - [Einstein Final 1 (YouTube)](https://www.youtube.com/watch?v=EjF9we707DA)
-- [Decision-Making Guide](../../decision-making/)
+- [Decision-Making Guide]({{ '/decision-making/' | relative_url }})
 - [Leadership: Feedback](../../leadership/feedback/)
 - [Leadership: Managing Expectations](../../leadership/managing-expectations/)
-- [Season Roadmap — Phase 5](../../roadmap/)
-- [Using the learning tickets](../using-tickets/) — why this site is
+- [Season Roadmap — Phase 5]({{ '/roadmap/' | relative_url }})
+- [Using the learning tickets]({{ '/learning/using-tickets/' | relative_url }}) — why this site is
   not a gradebook
 - [Driving Fundamentals](../driving-fundamentals/)
 - [Event Operations](../event-operations/) — next ticket

@@ -150,7 +150,7 @@ criteria below.
 - [2026 Game Manual section 6.4](https://firstfrc.blob.core.windows.net/frc2026/Manual/2026GameManual.pdf)
   — practice against the real clock
 - [WPILib: Operator Console Best Practices](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station-best-practices.html)
-- [Season Roadmap — Phase 5](../../roadmap/)
+- [Season Roadmap — Phase 5]({{ '/roadmap/' | relative_url }})
 - [Operator Skills](../operator-skills/) — next ticket
 - [Practice Hours & Selection](../practice-selection/) — how this log
   is used

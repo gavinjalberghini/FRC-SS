@@ -155,7 +155,7 @@ close the issue once a mentor accepts the criteria below.
 - [WPILib: Operator Console Best Practices](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station-best-practices.html)
 - [WPILib: FRC Driver Station](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html)
 - [Einstein Final 1 (YouTube)](https://www.youtube.com/watch?v=EjF9we707DA)
-- [Season Roadmap — Competition Season](../../roadmap/)
+- [Season Roadmap — Competition Season]({{ '/roadmap/' | relative_url }})
 - [Business: Judge Interviews & Pit Talks](../../business-outreach/judge-interviews/)
   — the pit is public
 - [Strategy: In-Event Iteration](../../strategy-scouting/in-event-iteration/)

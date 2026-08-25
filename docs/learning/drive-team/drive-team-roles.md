@@ -168,7 +168,7 @@ mentor accepts the criteria below.
 - [Einstein Final 1 — 2026 FIRST Championship (YouTube)](https://www.youtube.com/watch?v=EjF9we707DA)
 - [REBUILT Game Animation (YouTube)](https://www.youtube.com/watch?v=_fybREErgyM)
   — watch if Einstein Final 1 is still fuzzy
-- [Org Chart](../../org-chart/) — where drive team sits on this team
+- [Org Chart]({{ '/org-chart/' | relative_url }}) — where drive team sits on this team
 - [The Driver Station](../driver-station/) — next ticket
 - [Practice Hours & Selection](../practice-selection/) — where the role
   map becomes a decision
