@@ -109,6 +109,8 @@ installed globally.
 | `task warm`          | Pre-warm the GitHub Pages CDN cache (see below)             |
 | `task check`         | `lint` + `build` + `test` — run this before opening a PR     |
 | `task clean`         | Remove `_site/` and caches                                  |
+| `task tickets:list`  | Print the GitHub issue titles that would be created         |
+| `task tickets:export`| Write portable ticket markdown to `dist/tickets/`           |
 
 The linters are also exposed as npm scripts (`npm run lint`, `npm run format`)
 if you prefer not to install go-task. For a local preview without the project
@@ -250,8 +252,24 @@ Local testing of the container:
 | `task docker:serve` | Run it at <http://localhost:8080/frc-ss/>                |
 | `task docker:push`  | Manual arm64 build + push to GHCR (CI normally does this) |
 
+## Learning tickets
+
+Every lesson in `/learning/` is a **ticket**: teaching, numbered tasks,
+acceptance criteria, and outside resources. This site does not track student
+work. A team that wants a board should export the tickets into **their own**
+GitHub:
+
+```bash
+python3 scripts/create_issues.py --dry-run
+python3 scripts/create_issues.py --repo your-org/team-learning
+python3 scripts/create_issues.py --dry-run --export-dir dist/tickets
+```
+
+See `tickets/README.md` and `/learning/using-tickets/` for the full workflow.
+
 ## Contributing
 
 This is a team document. Propose changes by opening a pull request — every
 member is encouraged to keep the playbook accurate and useful. Run `task check`
-before pushing so linting and link validation pass.
+before pushing so linting and link validation pass. New lessons should follow
+the ticket spine in `tickets/README.md`.
