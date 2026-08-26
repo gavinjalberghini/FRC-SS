@@ -95,6 +95,9 @@ they are ready for; adults fill empty ones and hold veto.
 
 ## How a lead is chosen
 
+- Interviews happen in **preseason**, and again whenever a chair opens.
+  Completing the [leadership tickets]({{ '/learning/leadership/' | relative_url }})
+  makes you a stronger candidate. It does not appoint you.
 - The chair is a **job**, not a popularity contest. Candidates interview against
   a written description of the role — expectations, time, and what "good"
   looks like.
@@ -102,19 +105,21 @@ they are ready for; adults fill empty ones and hold veto.
   notes count. The final call stays with the adults so there is a point of
   enforcement for the requirements.
 - Eligibility is earned through the [Learning Hub]({{ '/learning/' | relative_url }})
-  — you cannot interview for Lead in a trade you have not demonstrated — and
-  through the [Team Contract]({{ '/contract/' | relative_url }}): no outstanding
-  school disciplinary actions this year, and grades at the adult-set standard.
-  A student may appeal a disciplinary bar; adults decide. Adults may also
-  pull the chair later if grades drop enough that robotics looks like the
-  cause.
+  — you cannot interview for Lead in a trade you have not demonstrated as a
+  Veteran — and through the [Team Contract]({{ '/contract/' | relative_url }}):
+  no outstanding school disciplinary actions this year, and grades at the
+  standard the head teacher sets. A student may appeal a disciplinary bar;
+  the head teacher decides, with mentors advising. The chair can also be
+  pulled later if grades drop enough that robotics looks like the cause.
 - A student who is not selected gets a clear reason. That is a feature of the
   interview, not an awkward leftover.
 
 ## How a gap is filled
 
 - If no student can sit in a chair, an **adult occupies that named chair** —
-  same responsibilities, same seat at the leadership table.
+  same responsibilities, same vote, same seat at the leadership table.
+  They are that trade's Lead until a student can take it. That is not
+  "coach, don't do." That is doing the job.
 - The adult's job is to keep the function alive *and* to grow a student who
   can take it. The handoff is the success condition, not an afterthought.
 - Do not leave an empty chair. Combining two trades is only for seasons when

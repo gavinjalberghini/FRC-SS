@@ -16,6 +16,9 @@ the season, while adult mentors provide insight, ensure safety, and occupy a
 **named chair** when no student is ready to fill it. Why the chairs are
 staffed that way — and the three patterns we did not pick — is in
 [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+How you move from the core path to Veteran to Lead is below. How those
+people decide is the
+[Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
 
 <div class="org">
 
@@ -27,7 +30,11 @@ staffed that way — and the three patterns we did not pick — is in
     </div>
     <div class="org-node lead">
       <h4>Adult Mentors</h4>
-      <p>Decision insight, safety, training, continuity — and a named chair when no student is ready. Coach, don't do.</p>
+      <p>Decision insight, safety, training, continuity — and a named chair when no student is ready. Coach, unless you are sitting in that chair.</p>
+    </div>
+    <div class="org-node lead">
+      <h4>Head Teacher</h4>
+      <p>The school's adult of record. Breaks an adult tie. Owns school-standing calls — grades, disciplinary appeals, eligibility to stay in a chair.</p>
     </div>
   </div>
 
@@ -42,8 +49,8 @@ staffed that way — and the three patterns we did not pick — is in
       <p>Wiring, power, sensors, and pneumatics.</p>
     </div>
     <div class="org-node">
-      <h4><a href="{{ '/learning/programming/' | relative_url }}">Software</a></h4>
-      <p>Robot code, autonomous, vision, and controls.</p>
+      <h4><a href="{{ '/learning/programming/' | relative_url }}">Software (Programming)</a></h4>
+      <p>Robot code, autonomous, vision, and controls. Learning Hub track: Programming.</p>
     </div>
     <div class="org-node">
       <h4><a href="{{ '/learning/cad/' | relative_url }}">CAD &amp; Design</a></h4>
@@ -97,9 +104,6 @@ not to carry the season.
 - **Bring new ideas** to the table. Onboarding is not silence.
 - Progress by earning the trade's certifications and demonstrating the skills
   in practice.
-- Veteran and Lead chairs also have to clear the
-  [contract]({{ '/contract/' | relative_url }}) bar for roles of
-  responsibility — school standing first.
 
 ### Veteran — the workhorse
 
@@ -161,21 +165,47 @@ pretend to teach it.
 ## Adult Mentors
 
 - Occupy a **named chair** when no student is available or certified to hold
-  it — same seat, same responsibilities, until a student can take over.
-- Provide the **insight** behind team decisions; students don't decide without it.
-- Ensure **safety**, provide tools and training, and maintain continuity year to
-  year.
-- **Coach, don't do:** ask guiding questions before giving answers. Adults sit
-  *in* empty chairs; they do not hover over every chair.
+  it — same seat, same vote, same work-shaping, until a student can take over.
+  Sitting in the chair is doing the Lead job, not hovering over every chair.
+- Provide the **insight** behind team decisions. Robot-level and formal calls
+  do not close without adult insight; day-to-day task calls do not wait for
+  a mentor to approve every bracket.
+- Ensure **safety**, provide tools and training, and maintain continuity year
+  to year.
+- **Coach, unless you are in the chair:** ask guiding questions before giving
+  answers. The handoff — growing a student who can take the seat — is the
+  success condition.
 
-## Getting certified
+## Head Teacher
 
-- **Anyone can become certified in any role**, in any trade — there are no
-  gatekept positions.
-- Certification is earned by completing the relevant
-  [Learning Hub]({{ '/learning/' | relative_url }}) track and demonstrating the
-  skills in practice.
-- Members can hold roles across multiple trades and move up tiers over time.
+- The school's adult of record. Not a trade Lead.
+- **Breaks a tie** when the adults cannot agree — see the
+  [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
+- Owns **school-standing** calls: the year's grade standard, disciplinary
+  appeals, and whether someone stays in a Veteran or Lead chair. Mentors
+  advise; they do not overrule the school.
+
+## How you move up
+
+Tickets teach. They do not appoint.
+
+- **Core path:** pick a trade, sign the
+  [contract]({{ '/contract/' | relative_url }}), work the first-tier
+  [Learning Hub]({{ '/learning/' | relative_url }}) tickets in and out of
+  meetings, and demonstrate the skills. You are learning, not carrying the
+  season.
+- **Veteran:** finish that trade's Veteran tickets and show you can own a
+  task unsupervised. A Lead or mentor signs that you are ready. This is
+  certification plus trust, not an election. Veterans should be the bulk of
+  the team.
+- **Lead:** interview. Adults select. Completing the leadership tickets
+  makes you a better candidate; it does not give you the chair. See
+  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+- You can hold roles in more than one trade. A Lead chair in one trade does
+  not make you Lead in another.
+- Veteran and Lead chairs also have to clear the
+  [Team Contract]({{ '/contract/' | relative_url }}) bar for roles of
+  responsibility — school standing first.
 
 <div class="callout">
   <div class="callout-icon">🧭</div>

@@ -109,13 +109,13 @@ They jump the line.
 | **One-way door** — cutting a unique tube, deleting a mechanism, sending the Impact essay | Pause. Name the door. Formal process if it cannot be undone cheaply. | Leads + adults |
 | **Breaks another trade's constraint** — your "small" change starves their motor, their height, their time | Stop. Both Leads, same conversation. | The two Leads; escalate if they disagree |
 | **Inspection / rules risk** — bumpers, weight, pneumatics, a mechanism that might be illegal | Do not ship hope. Mentor + relevant Lead. | Adults on legality; Leads on the design response |
-| **People** — eligibility, pulling a chair, conflict that is not about a part | Not a shop-floor vote. | Adults, using the Team Contract |
+| **People** — eligibility, pulling a chair, conflict that is not about a part | Not a shop-floor vote. | Head teacher on school standing; mentors advise. Team Contract. |
 | **Event strategy that is not the pick list** — last-minute alliance or a play that dumps the scout sheet | Name that you are off-book. | Drive/strategy Leads + mentors, before the alliance captain walks to the station |
 
 Out of band is not "ask everyone." It is "use the *right* process instead of
 the convenient one."
 
-## Four walks through the stack
+## Walks through the stack
 
 **Kickoff, Saturday.** The room wants swerve because it is swerve. That is a
 robot-level call: drivetrain type, motor budget, weight, and what every
@@ -157,10 +157,17 @@ resolved at the layers above, it goes through this process, in order:
    hold final authority. The leads' vote informs that call; it does not
    override it.
 3. **The head teacher breaks a tie.** If the adults cannot reach agreement,
-   the **head teacher** makes the final decision.
+   the **head teacher** makes the final decision. The head teacher is on the
+   [Org Chart]({{ '/org-chart/' | relative_url }}). They are not a trade Lead.
 
 Safety, eligibility, and unbudgeted money do **not** wait for a lead vote.
-Those start with adults.
+Those start with adults. School-standing calls (grades, disciplinary
+appeals, pulling a chair) start with the **head teacher**, with mentors
+advising.
+
+If an adult is **sitting in a named chair**, they cast that trade's Lead
+vote. They do not also get a second "mentor override" in the same breath.
+Veto still exists; it is the adult *table*, not one person talking twice.
 
 <div class="callout">
   <div class="callout-icon">🗳️</div>

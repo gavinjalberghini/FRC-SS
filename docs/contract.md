@@ -59,14 +59,16 @@ they owe the team is on the [Org Chart]({{ '/org-chart/' | relative_url }}).
 
 - **No outstanding school disciplinary actions** for the current year. That is
   the baseline. A student may **appeal** for an exemption based on the
-  circumstance. Adults make the final call. Students can always submit the
-  request; they cannot grant it to themselves.
-- I will maintain the **grade standard the adults set for the year**. If
-  grades drop enough that robotics looks like the cause — a meaningful slide,
-  not a single quiz — adults may **pull me from the role**. The seat can be
-  refilled. The student can stay on the team and recover.
-- Losing the chair is not the same as leaving the team. It is the adults
-  protecting school standing and the function of the role.
+  circumstance — write it down, give it to a mentor or the head teacher.
+  The **head teacher** decides, with mentors advising. Students can always
+  submit the request; they cannot grant it to themselves.
+- I will maintain the **grade standard the head teacher sets for the year**.
+  If grades drop enough that robotics looks like the cause — a meaningful
+  slide, not a single quiz — the head teacher may **pull me from the role**,
+  with mentors advising. The seat can be refilled. The student can stay on
+  the team and recover.
+- Losing the chair is not the same as leaving the team. It is the school
+  protecting standing and the team protecting the function of the role.
 
 ## 8. Decisions & Disagreements
 

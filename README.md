@@ -33,6 +33,7 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 │   ├── mission.md         #   Mission & values
 │   ├── org-chart.md       #   Org chart
 │   ├── staffing-leadership.md  #   How we staff leadership
+│   ├── decision-making.md #   How we decide
 │   ├── contract.md        #   Team contract
 │   ├── roadmap.md         #   Season roadmap
 │   └── learning/          #   Learning hub + per-role tracks
