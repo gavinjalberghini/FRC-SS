@@ -7,6 +7,8 @@ robotics team**. It's meant to be a living, team-editable home for:
 - **Org Chart** (`/org-chart/`) — roles, responsibilities, and structure.
 - **How We Staff Leadership** (`/staffing-leadership/`) — four leadership
   patterns, and why this team uses technical chairs with adults filling gaps.
+- **Decision-Making Guide** (`/decision-making/`) — robot-level calls, module
+  constraints, veteran calls inside a task, and out-of-band process.
 - **Team Contract** (`/contract/`) — conduct, commitment, and safety expectations.
 - **Season Roadmap** (`/roadmap/`) — a phase-by-phase plan for the year.
 - **Learning Hub** (`/learning/`) — role-based learning tickets for every member.
