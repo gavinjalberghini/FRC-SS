@@ -109,7 +109,7 @@ They jump the line.
 | **One-way door** — cutting a unique tube, deleting a mechanism, sending the Impact essay | Pause. Name the door. Formal process if it cannot be undone cheaply. | Leads + adults |
 | **Breaks another trade's constraint** — your "small" change starves their motor, their height, their time | Stop. Both Leads, same conversation. | The two Leads; escalate if they disagree |
 | **Inspection / rules risk** — bumpers, weight, pneumatics, a mechanism that might be illegal | Do not ship hope. Mentor + relevant Lead. | Adults on legality; Leads on the design response |
-| **People** — eligibility, pulling a chair, conflict that is not about a part | Not a shop-floor vote. | Adults, using the [Team Contract]({{ '/contract/' | relative_url }}) |
+| **People** — eligibility, pulling a chair, conflict that is not about a part | Not a shop-floor vote. | Adults, using the Team Contract |
 | **Event strategy that is not the pick list** — last-minute alliance or a play that dumps the scout sheet | Name that you are off-book. | Drive/strategy Leads + mentors, before the alliance captain walks to the station |
 
 Out of band is not "ask everyone." It is "use the *right* process instead of
