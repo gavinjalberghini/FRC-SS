@@ -91,7 +91,7 @@ breaks the year into phases so the team always knows what comes next.
     <h3>Championship (if qualified)</h3>
     <p>Compete on the biggest stage and represent the team well.</p>
     <ul>
-      <li>Plan travel, logistics, and chaperoning early.</li>
+      <li>Plan travel, logistics, and chaperoning early. The head teacher clears the trip; mentors do not replace the school.</li>
       <li>Refine strategy for stronger competition and divisions.</li>
       <li>Celebrate the season's work regardless of placement.</li>
     </ul>

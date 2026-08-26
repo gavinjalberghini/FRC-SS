@@ -109,8 +109,9 @@ they are ready for; adults fill empty ones and hold veto.
   Veteran — and through the [Team Contract]({{ '/contract/' | relative_url }}):
   no outstanding school disciplinary actions this year, and grades at the
   standard the head teacher sets. A student may appeal a disciplinary bar;
-  the head teacher decides, with mentors advising. The chair can also be
-  pulled later if grades drop enough that robotics looks like the cause.
+  the head teacher decides, with mentors advising. The **head teacher**
+  can also pull the chair later if grades drop enough that robotics
+  looks like the cause.
 - A student who is not selected gets a clear reason. That is a feature of the
   interview, not an awkward leftover.
 

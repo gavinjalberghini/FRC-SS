@@ -116,13 +116,13 @@ for a title.
   [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
 - **Mentor** people on the core path. Check their work. Make the next Veteran
   cheaper to grow than you were.
-- Provide **opinions, comments, and expertise** to your Lead. Captains decide
+- Provide **opinions, comments, and expertise** to your Lead. Leads decide
   better when Veterans talk.
 - Bring concerns, ideas, and blockers to your Lead before they become a
   leadership-meeting surprise.
 - Stay eligible: no outstanding school disciplinary actions, and grades that
-  hold. Adults can pull the chair if they don't — see the
-  [Team Contract]({{ '/contract/' | relative_url }}).
+  hold. The **head teacher** can pull the chair if they don't, with mentors
+  advising — see the [Team Contract]({{ '/contract/' | relative_url }}).
 
 ### Lead — co-captain
 
@@ -134,7 +134,7 @@ chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url
   single captain.
 - Serve on that team and **help make decisions** — represent the trade, argue
   from expertise, then get behind the call.
-- **Shape the work** so it fits *this* team, *this* year. A captain's job is
+- **Shape the work** so it fits *this* team, *this* year. A Lead's job is
   not only to sit in the leadership meeting. It is to size tasks, sequence
   them, and match them to the people you actually have — not the roster you
   wish you had.
@@ -143,8 +143,9 @@ chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url
 - Own the trade's quality, standards, and direction for the season.
 - Clear the [contract]({{ '/contract/' | relative_url }}) bar for roles of
   responsibility: no outstanding school disciplinary actions this year
-  (appeals go to the adults), and grades that stay at the standard. Adults
-  can pull the chair if school standing slips.
+  (appeals go to the **head teacher**), and grades that stay at the
+  standard. The head teacher can pull the chair if school standing slips;
+  mentors advise.
 
 Work-shaping is a skill of its own. This page names the duty; it does not
 pretend to teach it.
@@ -184,6 +185,12 @@ pretend to teach it.
 - Owns **school-standing** calls: the year's grade standard, disciplinary
   appeals, and whether someone stays in a Veteran or Lead chair. Mentors
   advise; they do not overrule the school.
+- School authority at **travel and events** — chaperoning, permission, and
+  whether the team is cleared to go. Mentors run the pit; they do not
+  replace the school.
+- At formal robot votes you sit with the **adult table** (final say). You
+  break an adult tie. You are not a trade Lead unless you also occupy a
+  named empty chair.
 
 ## How you move up
 
@@ -198,14 +205,28 @@ Tickets teach. They do not appoint.
   task unsupervised. A Lead or mentor signs that you are ready. This is
   certification plus trust, not an election. Veterans should be the bulk of
   the team.
-- **Lead:** interview. Adults select. Completing the leadership tickets
-  makes you a better candidate; it does not give you the chair. See
+- **Lead:** you must already be a Veteran in that trade. Then
+  **interview** — preseason, or whenever the chair opens. Adults select.
+  Completing the leadership tickets (and that trade's Lead tickets) makes
+  you a better candidate; it does not give you the chair. See
   [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 - You can hold roles in more than one trade. A Lead chair in one trade does
   not make you Lead in another.
 - Veteran and Lead chairs also have to clear the
   [Team Contract]({{ '/contract/' | relative_url }}) bar for roles of
   responsibility — school standing first.
+
+## Names we use
+
+| We say | We mean | We do not mean |
+| --- | --- | --- |
+| **Software** | The trade. Learning Hub track is **Programming**. | A different department. |
+| **Lead** / **co-captain** | That trade's chair on the Student Leadership Team. There is no single team captain. | FIRST's **alliance captain** at an event — one designated voice at the mic, named for that event. |
+| **Drive Coach** | Drive Team's Lead chair. Still a co-captain. | Alliance captain, unless they are also designated that day. |
+| **Emerging / Team / Senior Leader** | Skill badges on the leadership ticket track. Team Leader ≈ Veteran *skill*. Senior Leader ≈ Lead *skill*. | Appointment to a chair. |
+
+The badge names live on the
+[Leadership Curriculum]({{ '/learning/leadership/' | relative_url }}).
 
 <div class="callout">
   <div class="callout-icon">🧭</div>

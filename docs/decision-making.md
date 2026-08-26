@@ -104,13 +104,15 @@ They jump the line.
 | Out-of-band trigger | What you do | Who owns the call |
 | --- | --- | --- |
 | **Safety** — unsafe act, injury, missing PPE, a tool you were not signed off on | Stop the work. Find a mentor. | Adults. Not a vote. |
+| **Budgeted money** — a part already in the season plan | Buy it the way the business Lead set up (PO, card, receipt). Flag it if the line will blow. | Veteran or Lead who owns the task, inside the plan. Business Lead keeps the books. |
 | **Unbudgeted money** — a part, a trip, a tool that is not in the plan | Do not buy it. Take it to a Lead and a mentor. | Adults, with the business Lead in the room |
 | **Locked priority** — changing a must/should/won't after it was set | Do not start the new thing. Formal process. | Leads vote; adults final say |
 | **One-way door** — cutting a unique tube, deleting a mechanism, sending the Impact essay | Pause. Name the door. Formal process if it cannot be undone cheaply. | Leads + adults |
 | **Breaks another trade's constraint** — your "small" change starves their motor, their height, their time | Stop. Both Leads, same conversation. | The two Leads; escalate if they disagree |
 | **Inspection / rules risk** — bumpers, weight, pneumatics, a mechanism that might be illegal | Do not ship hope. Mentor + relevant Lead. | Adults on legality; Leads on the design response |
-| **People** — eligibility, pulling a chair, conflict that is not about a part | Not a shop-floor vote. | Head teacher on school standing; mentors advise. Team Contract. |
-| **Event strategy that is not the pick list** — last-minute alliance or a play that dumps the scout sheet | Name that you are off-book. | Drive/strategy Leads + mentors, before the alliance captain walks to the station |
+| **School standing** — eligibility, grades, disciplinary appeal, pulling a chair | Not a shop-floor vote. Write it down. | Head teacher decides; mentors advise. Team Contract. |
+| **People conflict** — a fight that is not about a part and not about school standing | Do not litigate it at the mill. | Leads and mentors. Head teacher only if it becomes a school issue. |
+| **Event strategy that is not the pick list** — last-minute alliance or a play that dumps the scout sheet | Name that you are off-book. | Drive/strategy Leads + mentors, before the designated **alliance captain** (FIRST's mic voice for that event — not "the" team captain) walks to the station |
 
 Out of band is not "ask everyone." It is "use the *right* process instead of
 the convenient one."
