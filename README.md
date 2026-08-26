@@ -5,6 +5,10 @@ robotics team**. It's meant to be a living, team-editable home for:
 
 - **Mission & Values** (`/mission/`) — what the team stands for.
 - **Org Chart** (`/org-chart/`) — roles, responsibilities, and structure.
+- **How We Staff Leadership** (`/staffing-leadership/`) — four leadership
+  patterns, and why this team uses technical chairs with adults filling gaps.
+- **Decision-Making Guide** (`/decision-making/`) — robot-level calls, module
+  constraints, veteran calls inside a task, and out-of-band process.
 - **Team Contract** (`/contract/`) — conduct, commitment, and safety expectations.
 - **Season Roadmap** (`/roadmap/`) — a phase-by-phase plan for the year.
 - **Learning Hub** (`/learning/`) — role-based learning tickets for every member.
@@ -28,6 +32,8 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 │   ├── index.html         #   Home page (permalink: /)
 │   ├── mission.md         #   Mission & values
 │   ├── org-chart.md       #   Org chart
+│   ├── staffing-leadership.md  #   How we staff leadership
+│   ├── decision-making.md #   How we decide
 │   ├── contract.md        #   Team contract
 │   ├── roadmap.md         #   Season roadmap
 │   └── learning/          #   Learning hub + per-role tracks

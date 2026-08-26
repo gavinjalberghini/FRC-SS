@@ -17,10 +17,11 @@ breaks the year into phases so the team always knows what comes next.
     <h3>Preseason &amp; Onboarding</h3>
     <p>Recruit and train members, build team culture, and get the shop ready.</p>
     <ul>
-      <li>Recruit members; assign subteams and leads.</li>
-      <li>Run safety and tool training; sign the team contract.</li>
+      <li>Recruit members. Each person picks a <a href="{{ '/org-chart/' | relative_url }}">trade</a> and starts that Learning Hub track — we do not "assign subteams."</li>
+      <li>Sign the <a href="{{ '/contract/' | relative_url }}">team contract</a>. Run safety and tool training.</li>
+      <li><a href="{{ '/staffing-leadership/' | relative_url }}">Interview</a> Lead chairs. Adults select. If a chair has no ready student, an adult sits in it.</li>
       <li>Complete training projects (e.g., a practice drivetrain, intro to CAD/code).</li>
-      <li>Confirm budget, sponsors, and the event registration plan.</li>
+      <li>Confirm budget, sponsors, and the event registration plan. Unbudgeted spend later is an adult call.</li>
     </ul>
   </div>
 
@@ -31,8 +32,8 @@ breaks the year into phases so the team always knows what comes next.
     <ul>
       <li>Watch Kickoff and read the game manual together.</li>
       <li>Run game analysis: scoring, key tasks, and a target strategy.</li>
-      <li>Define robot priorities and a list of "must / should / won't" features.</li>
-      <li>Set the build schedule and major milestones.</li>
+      <li>Make the <a href="{{ '/decision-making/' | relative_url }}">robot-level</a> calls — drivetrain, which mechanisms exist, must / should / won't — through the formal process. Leads turn those into module constraints.</li>
+      <li>Set the build schedule and major milestones to fit <em>this</em> year's roster.</li>
     </ul>
   </div>
 
@@ -90,7 +91,7 @@ breaks the year into phases so the team always knows what comes next.
     <h3>Championship (if qualified)</h3>
     <p>Compete on the biggest stage and represent the team well.</p>
     <ul>
-      <li>Plan travel, logistics, and chaperoning early.</li>
+      <li>Plan travel, logistics, and chaperoning early. The head teacher clears the trip; mentors do not replace the school.</li>
       <li>Refine strategy for stronger competition and divisions.</li>
       <li>Celebrate the season's work regardless of placement.</li>
     </ul>
@@ -104,7 +105,7 @@ breaks the year into phases so the team always knows what comes next.
       <li>Run a full-season retrospective: what to keep, drop, and change.</li>
       <li>Attend or host offseason events to develop new drivers and members.</li>
       <li>Update this playbook and documentation while it's fresh.</li>
-      <li>Begin succession planning and next year's recruiting.</li>
+      <li>Hand off chairs: interview next year's Leads, grow Veterans into candidates, and keep an adult in any seat that is not ready.</li>
     </ul>
   </div>
 

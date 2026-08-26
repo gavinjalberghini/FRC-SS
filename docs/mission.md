@@ -57,13 +57,21 @@ around us is elevated.
 
 ### A student-led team
 
-We want to remain **student-led**, with mentors coaching rather than directing.
-Students should feel empowered to take genuine **ownership and responsibility**
-for real-world challenges and systems — and to grow into leaders through that
-responsibility.
+We want to remain **student-led** in the sense this playbook uses everywhere
+else: **student-driven, mentor-supported**. Mentors coach rather than hover.
+Students take genuine **ownership and responsibility** for real-world
+challenges — the chairs they are ready to hold — and grow into leaders
+through that responsibility. Adults fill empty chairs and hold veto. They
+do not run every meeting.
 
-- Put students in charge of real decisions, budgets, and subsystems.
-- Use mentors as coaches and guides, not managers.
+- Put students in charge of real decisions and subsystems — the chairs they
+  are ready to hold. Spend inside the season plan is a student-shaped call;
+  **unbudgeted** money is an adult call (see
+  [Decision-Making]({{ '/decision-making/' | relative_url }})).
+- Use mentors as coaches and guides, not as a shadow cabinet: they occupy
+  empty chairs until a student can take them, and they hold veto. That
+  synthesis is in
+  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 - Sustain a strong pipeline of new members and emerging leaders year over year.
 
 ## Core Values

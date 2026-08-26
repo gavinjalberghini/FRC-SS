@@ -166,9 +166,10 @@ You cannot scout a role you never named.
 
 - "We'll add it if we have time" is how won'ts become half-built
   shoulds. If it is not scheduled, it is a won't.
-- Mentors drive overall strategy and priority on this team; student
-  leads facilitate across tasks. Read the decision guide before you
-  schedule a vote about bumpers.
+- Must / should / won't is a **robot-level** call: student leads vote,
+  adults have final say. Leads then turn it into module constraints.
+  Read the [Decision-Making Guide]({{ '/decision-making/' | relative_url }})
+  before you schedule a vote about bumpers.
 - A won't is not an insult to the person who suggested it. It is a
   schedule. Thank them and write the reason down.
 - Next:

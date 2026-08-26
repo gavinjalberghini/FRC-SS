@@ -12,8 +12,13 @@ is something you can learn and get certified in through the
 hold the trade's role at one of three levels — the **role itself** (no
 qualifier), then **Veteran**, then **Lead**. The team is
 **student-driven and mentor-supported**: students do the work and the leads steer
-the season, while adult mentors provide insight, ensure safety, and step in as
-**flex capacity** when a role can't be filled by a student.
+the season, while adult mentors provide insight, ensure safety, and occupy a
+**named chair** when no student is ready to fill it. Why the chairs are
+staffed that way — and the three patterns we did not pick — is in
+[How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+How you move from the core path to Veteran to Lead is below. How those
+people decide is the
+[Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
 
 <div class="org">
 
@@ -25,7 +30,11 @@ the season, while adult mentors provide insight, ensure safety, and step in as
     </div>
     <div class="org-node lead">
       <h4>Adult Mentors</h4>
-      <p>Decision insight, safety, training, continuity — and flex capacity to fill any role. Coach, don't do.</p>
+      <p>Decision insight, safety, training, continuity — and a named chair when no student is ready. Coach, unless you are sitting in that chair.</p>
+    </div>
+    <div class="org-node lead">
+      <h4>Head Teacher</h4>
+      <p>The school's adult of record. Breaks an adult tie. Owns school-standing calls — grades, disciplinary appeals, eligibility to stay in a chair.</p>
     </div>
   </div>
 
@@ -40,8 +49,8 @@ the season, while adult mentors provide insight, ensure safety, and step in as
       <p>Wiring, power, sensors, and pneumatics.</p>
     </div>
     <div class="org-node">
-      <h4><a href="{{ '/learning/programming/' | relative_url }}">Software</a></h4>
-      <p>Robot code, autonomous, vision, and controls.</p>
+      <h4><a href="{{ '/learning/programming/' | relative_url }}">Software (Programming)</a></h4>
+      <p>Robot code, autonomous, vision, and controls. Learning Hub track: Programming.</p>
     </div>
     <div class="org-node">
       <h4><a href="{{ '/learning/cad/' | relative_url }}">CAD &amp; Design</a></h4>
@@ -75,41 +84,79 @@ own — no adjective — and you add a qualifier as you grow: for example
 *Programmer → Veteran Programmer → Lead Programmer*, or
 *Operator → Veteran Operator → Lead Operator* for 3D printing.
 
-### The role itself — learning the trade
+| Tier | Who it is for | What they own |
+| --- | --- | --- |
+| **The role itself** | New members, or anyone learning a new trade | Learning the competency and onboarding into the work |
+| **Veteran** | The main working body of the team | A task, end to end, with room to decide how |
+| **Lead** (co-captain) | Exemplars from the veteran pool | Shaping the work and sitting in team decisions |
 
-- Where everyone starts, and primarily about **learning** the trade.
-- Members carry the trade's role name on its own (Programmer, Fabricator,
-  Technician, Designer, Operator, …) — no qualifier, by design.
-- Work alongside Veterans and Leads, essentially **shadowing**, to build skills and
-  knowledge.
-- Take on guided tasks; not yet expected to work unsupervised.
-- Progress by earning certifications in the [Learning Hub]({{ '/learning/' | relative_url }}).
+### The role itself — the core path
 
-### Veteran — the core of the team
+This is the onboarding tier. No adjective on the name, by design: you are a
+Programmer, a Fabricator, a Technician. The job is to **learn a competency**,
+not to carry the season.
 
-- Should make up the **bulk of the team** — the people doing the core work to
-  build the robot each season.
-- Work **independently** on their trade's tasks.
-- Bring concerns, ideas, and blockers to their trade **Lead**, who raises them with
-  the leadership team to discuss.
-- Help teach and check the work of newer members.
+- Spend time **inside and outside meetings** on the
+  [Learning Hub]({{ '/learning/' | relative_url }}) tickets for this trade.
+  Contextual knowledge does not arrive by sitting in the shop.
+- Work under the tutelage of **mentors and Veterans**. Shadow, ask, and take
+  guided tasks. You are not yet expected to work unsupervised.
+- **Bring new ideas** to the table. Onboarding is not silence.
+- Progress by earning the trade's certifications and demonstrating the skills
+  in practice.
+
+### Veteran — the workhorse
+
+Veterans should be the **bulk of the team**. This is the group that is handed
+a task and finishes it. They are the main working body, not a waiting room
+for a title.
+
+- Given a task, you have **relative autonomy** in how you implement it — and
+  you go get it done. Decisions that live inside that task are yours; see the
+  [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
+- **Mentor** people on the core path. Check their work. Make the next Veteran
+  cheaper to grow than you were.
+- Provide **opinions, comments, and expertise** to your Lead. Leads decide
+  better when Veterans talk.
+- Bring concerns, ideas, and blockers to your Lead before they become a
+  leadership-meeting surprise.
+- Stay eligible: no outstanding school disciplinary actions, and grades that
+  hold. The **head teacher** can pull the chair if they don't, with mentors
+  advising — see the [Team Contract]({{ '/contract/' | relative_url }}).
 
 ### Lead — co-captain
 
-- The most experienced and accountable person in a trade.
-- Each Lead is a **co-captain** on the Student Leadership Team.
-- **Facilitates the success of others** — teaches, unblocks, assigns, and
-  coordinates within their trade.
-- **Assists mentors in the team's decision-making** and represents their trade's
-  concerns.
-- Owns their trade's quality, standards, and direction for the season.
+Leads are **exemplars from the Veteran pool**, not a separate species. They
+step into the management and decision-making layer of the team. How a Lead is
+chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+
+- Each Lead is a **co-captain** on the Student Leadership Team. There is no
+  single captain.
+- Serve on that team and **help make decisions** — represent the trade, argue
+  from expertise, then get behind the call.
+- **Shape the work** so it fits *this* team, *this* year. A Lead's job is
+  not only to sit in the leadership meeting. It is to size tasks, sequence
+  them, and match them to the people you actually have — not the roster you
+  wish you had.
+- Facilitate the success of others: teach, unblock, assign, and coordinate
+  inside the trade.
+- Own the trade's quality, standards, and direction for the season.
+- Clear the [contract]({{ '/contract/' | relative_url }}) bar for roles of
+  responsibility: no outstanding school disciplinary actions this year
+  (appeals go to the **head teacher**), and grades that stay at the
+  standard. The head teacher can pull the chair if school standing slips;
+  mentors advise.
+
+Work-shaping is a skill of its own. This page names the duty; it does not
+pretend to teach it.
 
 ## Student Leadership Team (co-captains)
 
 - Made up of the **Leads from every trade**. There is no single captain —
   leadership is shared, and each member is a **co-captain**.
-- Two core responsibilities: **facilitate the success of others**, and **assist the
-  adults with the team's decision-making**.
+- Three core responsibilities: **facilitate the success of others**, **shape
+  the work** so it fits this year's team, and **assist the adults with the
+  team's decision-making**.
 - **Student-driven, but not unilateral.** The team being student-driven does *not*
   give students the authority to make decisions without adult insight. Significant
   calls are made with mentors in the loop — see the
@@ -118,23 +165,70 @@ own — no adjective — and you add a qualifier as you grow: for example
 
 ## Adult Mentors
 
-- Serve **primarily as flex capacity** — filling any role when no student is
-  available or certified to do it.
-- Provide the **insight** behind team decisions; students don't decide without it.
-- Ensure **safety**, provide tools and training, and maintain continuity year to
-  year.
-- **Coach, don't do:** ask guiding questions before giving answers.
+- Occupy a **named chair** when no student is available or certified to hold
+  it — same seat, same vote, same work-shaping, until a student can take over.
+  Sitting in the chair is doing the Lead job, not hovering over every chair.
+- Provide the **insight** behind team decisions. Robot-level and formal calls
+  do not close without adult insight; day-to-day task calls do not wait for
+  a mentor to approve every bracket.
+- Ensure **safety**, provide tools and training, and maintain continuity year
+  to year.
+- **Coach, unless you are in the chair:** ask guiding questions before giving
+  answers. The handoff — growing a student who can take the seat — is the
+  success condition.
 
-## Getting certified
+## Head Teacher
 
-- **Anyone can become certified in any role**, in any trade — there are no
-  gatekept positions.
-- Certification is earned by completing the relevant
-  [Learning Hub]({{ '/learning/' | relative_url }}) track and demonstrating the
-  skills in practice.
-- Members can hold roles across multiple trades and move up tiers over time.
+- The school's adult of record. Not a trade Lead.
+- **Breaks a tie** when the adults cannot agree — see the
+  [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
+- Owns **school-standing** calls: the year's grade standard, disciplinary
+  appeals, and whether someone stays in a Veteran or Lead chair. Mentors
+  advise; they do not overrule the school.
+- School authority at **travel and events** — chaperoning, permission, and
+  whether the team is cleared to go. Mentors run the pit; they do not
+  replace the school.
+- At formal robot votes you sit with the **adult table** (final say). You
+  break an adult tie. You are not a trade Lead unless you also occupy a
+  named empty chair.
+
+## How you move up
+
+Tickets teach. They do not appoint.
+
+- **Core path:** pick a trade, sign the
+  [contract]({{ '/contract/' | relative_url }}), work the first-tier
+  [Learning Hub]({{ '/learning/' | relative_url }}) tickets in and out of
+  meetings, and demonstrate the skills. You are learning, not carrying the
+  season.
+- **Veteran:** finish that trade's Veteran tickets and show you can own a
+  task unsupervised. A Lead or mentor signs that you are ready. This is
+  certification plus trust, not an election. Veterans should be the bulk of
+  the team.
+- **Lead:** you must already be a Veteran in that trade. Then
+  **interview** — preseason, or whenever the chair opens. Adults select.
+  Completing the leadership tickets (and that trade's Lead tickets) makes
+  you a better candidate; it does not give you the chair. See
+  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+- You can hold roles in more than one trade. A Lead chair in one trade does
+  not make you Lead in another.
+- Veteran and Lead chairs also have to clear the
+  [Team Contract]({{ '/contract/' | relative_url }}) bar for roles of
+  responsibility — school standing first.
+
+## Names we use
+
+| We say | We mean | We do not mean |
+| --- | --- | --- |
+| **Software** | The trade. Learning Hub track is **Programming**. | A different department. |
+| **Lead** / **co-captain** | That trade's chair on the Student Leadership Team. There is no single team captain. | FIRST's **alliance captain** at an event — one designated voice at the mic, named for that event. |
+| **Drive Coach** | Drive Team's Lead chair. Still a co-captain. | Alliance captain, unless they are also designated that day. |
+| **Emerging / Team / Senior Leader** | Skill badges on the leadership ticket track. Team Leader ≈ Veteran *skill*. Senior Leader ≈ Lead *skill*. | Appointment to a chair. |
+
+The badge names live on the
+[Leadership Curriculum]({{ '/learning/leadership/' | relative_url }}).
 
 <div class="callout">
   <div class="callout-icon">🧭</div>
-  <p>The shape to aim for: Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors filling gaps and keeping decisions grounded. If a trade cannot staff a student lead, combine it with an adjacent trade rather than leaving an empty chair.</p>
+  <p>The shape to aim for: Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors occupying any chair no student is ready to hold. Combining two trades is only for seasons when that chair should not exist, not a way to avoid an adult sitting in it. The argument for this shape is in <a href="{{ '/staffing-leadership/' | relative_url }}">How We Staff Leadership</a>.</p>
 </div>
