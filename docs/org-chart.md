@@ -97,6 +97,9 @@ not to carry the season.
 - **Bring new ideas** to the table. Onboarding is not silence.
 - Progress by earning the trade's certifications and demonstrating the skills
   in practice.
+- Veteran and Lead chairs also have to clear the
+  [contract]({{ '/contract/' | relative_url }}) bar for roles of
+  responsibility — school standing first.
 
 ### Veteran — the workhorse
 
@@ -113,6 +116,9 @@ for a title.
   better when Veterans talk.
 - Bring concerns, ideas, and blockers to your Lead before they become a
   leadership-meeting surprise.
+- Stay eligible: no outstanding school disciplinary actions, and grades that
+  hold. Adults can pull the chair if they don't — see the
+  [Team Contract]({{ '/contract/' | relative_url }}).
 
 ### Lead — co-captain
 
@@ -131,6 +137,10 @@ chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url
 - Facilitate the success of others: teach, unblock, assign, and coordinate
   inside the trade.
 - Own the trade's quality, standards, and direction for the season.
+- Clear the [contract]({{ '/contract/' | relative_url }}) bar for roles of
+  responsibility: no outstanding school disciplinary actions this year
+  (appeals go to the adults), and grades that stay at the standard. Adults
+  can pull the chair if school standing slips.
 
 Work-shaping is a skill of its own. This page names the duty; it does not
 pretend to teach it.

@@ -102,7 +102,12 @@ they are ready for; adults fill empty ones and hold veto.
   notes count. The final call stays with the adults so there is a point of
   enforcement for the requirements.
 - Eligibility is earned through the [Learning Hub]({{ '/learning/' | relative_url }})
-  — you cannot interview for Lead in a trade you have not demonstrated.
+  — you cannot interview for Lead in a trade you have not demonstrated — and
+  through the [Team Contract]({{ '/contract/' | relative_url }}): no outstanding
+  school disciplinary actions this year, and grades at the adult-set standard.
+  A student may appeal a disciplinary bar; adults decide. Adults may also
+  pull the chair later if grades drop enough that robotics looks like the
+  cause.
 - A student who is not selected gets a clear reason. That is a feature of the
   interview, not an awkward leftover.
 

@@ -47,19 +47,40 @@ respected, and able to do their best work.
 
 - I will maintain the academic eligibility required by my school to participate.
 - I will ask for help early if school workload affects my participation.
+- School and family come first. Robotics does not get to be the reason grades
+  collapse.
 
-## 7. Decisions & Disagreements
+## 7. Roles of responsibility (Veteran and Lead)
+
+Holding a Veteran or Lead chair is extra trust. These rules are **in addition
+to** everything above. How those chairs are staffed is in
+[How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}); what
+they owe the team is on the [Org Chart]({{ '/org-chart/' | relative_url }}).
+
+- **No outstanding school disciplinary actions** for the current year. That is
+  the baseline. A student may **appeal** for an exemption based on the
+  circumstance. Adults make the final call. Students can always submit the
+  request; they cannot grant it to themselves.
+- I will maintain the **grade standard the adults set for the year**. If
+  grades drop enough that robotics looks like the cause — a meaningful slide,
+  not a single quiz — adults may **pull me from the role**. The seat can be
+  refilled. The student can stay on the team and recover.
+- Losing the chair is not the same as leaving the team. It is the adults
+  protecting school standing and the function of the role.
+
+## 8. Decisions & Disagreements
 
 - I will help make decisions at the right level and raise concerns through my lead.
 - I will respect and support decisions made through the team's
   [decision-making process]({{ '/decision-making/' | relative_url }}), even when I
   argued for a different outcome.
 
-## 8. Consequences
+## 9. Consequences
 
 Members who do not meet these expectations may receive a conversation, a
-documented warning, reduced responsibilities, or removal from the team, depending
-on severity. Safety violations are treated most seriously.
+documented warning, reduced responsibilities, removal from a Veteran or Lead
+chair, or removal from the team, depending on severity. Safety violations are
+treated most seriously.
 
 ---
 
