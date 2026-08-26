@@ -77,43 +77,71 @@ own — no adjective — and you add a qualifier as you grow: for example
 *Programmer → Veteran Programmer → Lead Programmer*, or
 *Operator → Veteran Operator → Lead Operator* for 3D printing.
 
-### The role itself — learning the trade
+| Tier | Who it is for | What they own |
+| --- | --- | --- |
+| **The role itself** | New members, or anyone learning a new trade | Learning the competency and onboarding into the work |
+| **Veteran** | The main working body of the team | A task, end to end, with room to decide how |
+| **Lead** (co-captain) | Exemplars from the veteran pool | Shaping the work and sitting in team decisions |
 
-- Where everyone starts, and primarily about **learning** the trade.
-- Members carry the trade's role name on its own (Programmer, Fabricator,
-  Technician, Designer, Operator, …) — no qualifier, by design.
-- Work alongside Veterans and Leads, essentially **shadowing**, to build skills and
-  knowledge.
-- Take on guided tasks; not yet expected to work unsupervised.
-- Progress by earning certifications in the [Learning Hub]({{ '/learning/' | relative_url }}).
+### The role itself — the core path
 
-### Veteran — the core of the team
+This is the onboarding tier. No adjective on the name, by design: you are a
+Programmer, a Fabricator, a Technician. The job is to **learn a competency**,
+not to carry the season.
 
-- Should make up the **bulk of the team** — the people doing the core work to
-  build the robot each season.
-- Work **independently** on their trade's tasks.
-- Bring concerns, ideas, and blockers to their trade **Lead**, who raises them with
-  the leadership team to discuss.
-- Help teach and check the work of newer members.
+- Spend time **inside and outside meetings** on the
+  [Learning Hub]({{ '/learning/' | relative_url }}) tickets for this trade.
+  Contextual knowledge does not arrive by sitting in the shop.
+- Work under the tutelage of **mentors and Veterans**. Shadow, ask, and take
+  guided tasks. You are not yet expected to work unsupervised.
+- **Bring new ideas** to the table. Onboarding is not silence.
+- Progress by earning the trade's certifications and demonstrating the skills
+  in practice.
+
+### Veteran — the workhorse
+
+Veterans should be the **bulk of the team**. This is the group that is handed
+a task and finishes it. They are the main working body, not a waiting room
+for a title.
+
+- Given a task, you have **relative autonomy** in how you implement it — and
+  you go get it done. Decisions that live inside that task are yours; see the
+  [Decision-Making Guide]({{ '/decision-making/' | relative_url }}).
+- **Mentor** people on the core path. Check their work. Make the next Veteran
+  cheaper to grow than you were.
+- Provide **opinions, comments, and expertise** to your Lead. Captains decide
+  better when Veterans talk.
+- Bring concerns, ideas, and blockers to your Lead before they become a
+  leadership-meeting surprise.
 
 ### Lead — co-captain
 
-- The most experienced and accountable person in a trade.
-- Each Lead is a **co-captain** on the Student Leadership Team.
-- Chosen by **interview**, not by popular vote — see
-  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
-- **Facilitates the success of others** — teaches, unblocks, assigns, and
-  coordinates within their trade.
-- **Assists mentors in the team's decision-making** and represents their trade's
-  concerns.
-- Owns their trade's quality, standards, and direction for the season.
+Leads are **exemplars from the Veteran pool**, not a separate species. They
+step into the management and decision-making layer of the team. How a Lead is
+chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
+
+- Each Lead is a **co-captain** on the Student Leadership Team. There is no
+  single captain.
+- Serve on that team and **help make decisions** — represent the trade, argue
+  from expertise, then get behind the call.
+- **Shape the work** so it fits *this* team, *this* year. A captain's job is
+  not only to sit in the leadership meeting. It is to size tasks, sequence
+  them, and match them to the people you actually have — not the roster you
+  wish you had.
+- Facilitate the success of others: teach, unblock, assign, and coordinate
+  inside the trade.
+- Own the trade's quality, standards, and direction for the season.
+
+Work-shaping is a skill of its own. This page names the duty; it does not
+pretend to teach it.
 
 ## Student Leadership Team (co-captains)
 
 - Made up of the **Leads from every trade**. There is no single captain —
   leadership is shared, and each member is a **co-captain**.
-- Two core responsibilities: **facilitate the success of others**, and **assist the
-  adults with the team's decision-making**.
+- Three core responsibilities: **facilitate the success of others**, **shape
+  the work** so it fits this year's team, and **assist the adults with the
+  team's decision-making**.
 - **Student-driven, but not unilateral.** The team being student-driven does *not*
   give students the authority to make decisions without adult insight. Significant
   calls are made with mentors in the loop — see the

@@ -78,7 +78,9 @@ as the team's philosophy, or it will fight the mission's "student-led" line.
 
 **Pattern 3.** One lead per trade, chosen by interview. Adults decide who sits
 in the chair. Students may sit on the interview panel. If no student is ready,
-an adult occupies that chair until one is.
+an adult occupies that chair until one is. What each tier *does* day to day —
+core path, Veteran, Lead — is on the
+[Org Chart]({{ '/org-chart/' | relative_url }}).
 
 This is the most reasonable way to keep continuity between seasons, let
 students exercise real ownership, and shield students from seats they do not
