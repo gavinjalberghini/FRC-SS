@@ -12,8 +12,10 @@ is something you can learn and get certified in through the
 hold the trade's role at one of three levels — the **role itself** (no
 qualifier), then **Veteran**, then **Lead**. The team is
 **student-driven and mentor-supported**: students do the work and the leads steer
-the season, while adult mentors provide insight, ensure safety, and step in as
-**flex capacity** when a role can't be filled by a student.
+the season, while adult mentors provide insight, ensure safety, and occupy a
+**named chair** when no student is ready to fill it. Why the chairs are
+staffed that way — and the three patterns we did not pick — is in
+[How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 
 <div class="org">
 
@@ -25,7 +27,7 @@ the season, while adult mentors provide insight, ensure safety, and step in as
     </div>
     <div class="org-node lead">
       <h4>Adult Mentors</h4>
-      <p>Decision insight, safety, training, continuity — and flex capacity to fill any role. Coach, don't do.</p>
+      <p>Decision insight, safety, training, continuity — and a named chair when no student is ready. Coach, don't do.</p>
     </div>
   </div>
 
@@ -98,6 +100,8 @@ own — no adjective — and you add a qualifier as you grow: for example
 
 - The most experienced and accountable person in a trade.
 - Each Lead is a **co-captain** on the Student Leadership Team.
+- Chosen by **interview**, not by popular vote — see
+  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 - **Facilitates the success of others** — teaches, unblocks, assigns, and
   coordinates within their trade.
 - **Assists mentors in the team's decision-making** and represents their trade's
@@ -118,12 +122,13 @@ own — no adjective — and you add a qualifier as you grow: for example
 
 ## Adult Mentors
 
-- Serve **primarily as flex capacity** — filling any role when no student is
-  available or certified to do it.
+- Occupy a **named chair** when no student is available or certified to hold
+  it — same seat, same responsibilities, until a student can take over.
 - Provide the **insight** behind team decisions; students don't decide without it.
 - Ensure **safety**, provide tools and training, and maintain continuity year to
   year.
-- **Coach, don't do:** ask guiding questions before giving answers.
+- **Coach, don't do:** ask guiding questions before giving answers. Adults sit
+  *in* empty chairs; they do not hover over every chair.
 
 ## Getting certified
 
@@ -136,5 +141,5 @@ own — no adjective — and you add a qualifier as you grow: for example
 
 <div class="callout">
   <div class="callout-icon">🧭</div>
-  <p>The shape to aim for: Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors filling gaps and keeping decisions grounded. If a trade cannot staff a student lead, combine it with an adjacent trade rather than leaving an empty chair.</p>
+  <p>The shape to aim for: Veterans doing the build, a Lead steering each trade, and newer members learning by shadowing — with mentors occupying any chair no student is ready to hold. Combining two trades is only for seasons when that chair should not exist, not a way to avoid an adult sitting in it. The argument for this shape is in <a href="{{ '/staffing-leadership/' | relative_url }}">How We Staff Leadership</a>.</p>
 </div>

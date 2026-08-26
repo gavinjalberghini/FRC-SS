@@ -10,7 +10,9 @@ This guide is the **authoritative reference** for how robot design and build
 decisions get made on the team. The principle is simple: decisions are made as
 close to the work as possible, and only escalate when they need to. Once a decision
 is made through this process, **everyone is expected to respect it** — see the
-[Team Contract]({{ '/contract/' | relative_url }}).
+[Team Contract]({{ '/contract/' | relative_url }}). Who sits in the lead chairs
+— and why we staff them by interview, with adults filling empty seats — is in
+[How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 
 ## Where decisions are made day to day
 

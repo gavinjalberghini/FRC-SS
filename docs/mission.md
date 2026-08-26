@@ -62,8 +62,11 @@ Students should feel empowered to take genuine **ownership and responsibility**
 for real-world challenges and systems — and to grow into leaders through that
 responsibility.
 
-- Put students in charge of real decisions, budgets, and subsystems.
-- Use mentors as coaches and guides, not managers.
+- Put students in charge of real decisions, budgets, and subsystems — the
+  chairs they are ready to hold.
+- Use mentors as coaches and guides, not managers: they occupy empty chairs
+  until a student can take them, and they hold veto. That synthesis is in
+  [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 - Sustain a strong pipeline of new members and emerging leaders year over year.
 
 ## Core Values
