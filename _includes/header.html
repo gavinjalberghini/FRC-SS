@@ -11,15 +11,19 @@
     </label>
 
     <nav class="site-nav" aria-label="Primary">
-      {% assign current = page.url | remove_first: site.baseurl %}
       {% for item in site.data.nav %}
         {% assign link = item.url | relative_url %}
+        {% assign active = false %}
         {% if item.url == "/" %}
-          {% assign active = current == "/" %}
-        {% else %}
-          {% assign active = current contains item.url %}
+          {% if page.url == "/" %}{% assign active = true %}{% endif %}
+        {% elsif page.url == item.url or page.url contains item.url %}
+          {% assign active = true %}
         {% endif %}
-        <a href="{{ link }}" class="nav-link{% if active %} is-active{% endif %}">{{ item.title }}</a>
+        <a
+          href="{{ link }}"
+          class="nav-link{% if active %} is-active{% endif %}"
+          {% if active %}aria-current="page"{% endif %}
+        >{{ item.title }}</a>
       {% endfor %}
     </nav>
   </div>
