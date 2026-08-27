@@ -25,7 +25,7 @@ through the formal decision process. That is the point.
 This trade is **Software** on the [org chart]({{ '/org-chart/' | relative_url }}).
 The Learning Hub track is [Programming]({{ '/learning/programming/' | relative_url }}).
 
-### We use Git. That is not optional.
+### We use Git — that is not optional
 
 Git is how this team shares code. It is the industry standard for a reason:
 more than one person can work on the same robot without overwriting each
@@ -43,7 +43,7 @@ What that looks like:
   not a senior-only ritual.
 - "I will merge it later" is how event-day mystery bugs are born.
 
-### We freeze the codebase for events.
+### We freeze the codebase for events
 
 We take explicit steps to keep software from becoming the failure mode at
 a competition. **Major feature work stops before we leave for an event.**
@@ -67,7 +67,7 @@ Why:
 Tag a **release** before you bag the robot. That tag is the thing you
 revert to when Thursday's "tiny fix" is not tiny.
 
-### We lean into Git the way a shop leans into a mill — with a process.
+### We lean into Git the way a shop leans into a mill — with a process
 
 Pull requests, branches, named releases, and automatic lint/style checks
 are not bureaucracy. They are how a volunteer team gets industry practice
@@ -89,7 +89,7 @@ What that looks like:
 
 The Learning Hub track is [Mechanical]({{ '/learning/mechanical/' | relative_url }}).
 
-### We standardize tools and parts.
+### We standardize tools and parts
 
 A shop with five hex-key standards and three kinds of "almost 1/2-inch
 tube" is a shop that loses Thursday nights to a missing bit. We pick a
@@ -108,7 +108,7 @@ What that looks like:
 Standardization is how the next freshman can repair what you built after
 you graduate.
 
-### We start with COTS and fall back to custom.
+### We start with COTS and fall back to custom
 
 Commercial off-the-shelf first. Wheels, gearboxes, elevator blocks,
 intakes that already exist. Custom fabrication is the fallback when COTS
@@ -124,7 +124,7 @@ a shaft can be a good one.
 COTS-first is not "we never make anything." It is "we do not make a
 thing until we can say why the catalog failed."
 
-### We bring backups for the parts that end a night if they break.
+### We bring backups for the parts that end a night if they break
 
 Major mechanisms get a spare, a kit of wear parts, or a documented swap
 path *before* the first event. An elevator that only exists once is a
@@ -143,7 +143,7 @@ the box. That is a module constraint, not a hope.
 
 The Learning Hub track is [Electrical]({{ '/learning/electrical/' | relative_url }}).
 
-### Cable routing, weight, and wire type are decided at the start.
+### Cable routing, weight, and wire type are decided at the start
 
 Harnesses that get "figured out at integrate" become rats' nests, extra
 pounds on the wrong side of the robot, and a brownout that only happens
@@ -165,7 +165,7 @@ If a mechanical change starves a run or a gauge, that is a
 [constraint break]({{ '/decision-making/' | relative_url }}). Both Leads,
 same night.
 
-### We have a standard for "this harness will survive the event."
+### We have a standard for "this harness will survive the event"
 
 Pretty wiring that fails a tug is not done. We check robustness on
 purpose: **tug tests** on every crimp and ferrule, **multimeter**
