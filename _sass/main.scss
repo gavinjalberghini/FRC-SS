@@ -177,8 +177,8 @@ h4 {
 
 .site-nav {
   display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
+  gap: 0.25rem;
+  flex-wrap: nowrap;
 }
 
 .nav-link {
@@ -875,7 +875,7 @@ a.lesson-row:hover {
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .nav-toggle-label {
     display: inline-flex;
     flex-direction: column;

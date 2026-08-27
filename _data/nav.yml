@@ -1,6 +1,5 @@
-# Primary site navigation. Order here controls order in the header.
-- title: Home
-  url: /
+# Primary site navigation. Order here is the playbook read-order.
+# Home is the logo, not a nav item.
 - title: Mission
   url: /mission/
 - title: Org Chart
@@ -11,7 +10,7 @@
   url: /decision-making/
 - title: Contract
   url: /contract/
-- title: Season Roadmap
+- title: Season
   url: /roadmap/
 - title: Learning
   url: /learning/
