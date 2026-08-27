@@ -1,24 +1,25 @@
 ---
 layout: page
-title: Technical Principles
-eyebrow: How each trade works
-subtitle: Declarative takes for Programming, Mechanical, and Electrical — the rules we choose on purpose.
-permalink: /technical-principles/
+title: Core Principles
+eyebrow: By competency
+subtitle: What Programming, Mechanical, and Electrical treat as true — until a formal decision says otherwise.
+permalink: /core-principles/
 ---
 
-These are **principles**, not tickets. A ticket teaches a skill. A principle
-is a choice this team already made, so a Veteran does not have to re-argue
-it at the bench every Thursday. They sit next to
+These are the **core principles** of each competency. They are not tickets
+and they are not a vibe. A ticket teaches the craft. A principle is a
+statement the trade holds so a Thursday argument has a default.
+
+They sit next to
 [how we staff chairs]({{ '/staffing-leadership/' | relative_url }}) and
 [how we decide]({{ '/decision-making/' | relative_url }}). The
-[Learning Hub]({{ '/learning/' | relative_url }}) is where you practice the
-craft that makes them real.
+[Learning Hub]({{ '/learning/' | relative_url }}) is the practice.
 
 We start with three trades. CAD, printing, strategy, drive, and business
-will get the same treatment when we have takes worth writing down.
+get the same page when there are principles worth writing down.
 
-If a principle and a one-off idea fight, the principle wins unless it goes
-through the formal decision process. That is the point.
+If a one-off idea fights a principle, the principle stands unless it goes
+through the formal decision process.
 
 ## Programming (Software)
 

@@ -70,7 +70,7 @@ breaks the year into phases so the team always knows what comes next.
       <li>Hunt reliability: repeat mechanisms until they work every cycle, then fix the failures testing finds.</li>
       <li>Tune autonomous and verify it on a full field, not just in the shop.</li>
       <li>Work the inspection checklist early — weight, bumpers, wiring, pneumatics, labeling — so the first event is not the first inspection.</li>
-      <li>Stage the pit: spare parts, tools, batteries, bumpers, and a written pre-match checklist. Mechanical backups and a tagged software release go in the box — see <a href="{{ '/technical-principles/' | relative_url }}">Technical Principles</a>.</li>
+      <li>Stage the pit: spare parts, tools, batteries, bumpers, and a written pre-match checklist. Mechanical backups and a tagged software release go in the box — see <a href="{{ '/core-principles/' | relative_url }}">Core Principles</a>.</li>
     </ul>
   </div>
 
@@ -79,7 +79,7 @@ breaks the year into phases so the team always knows what comes next.
     <h3>Competition Season</h3>
     <p>Compete at district/regional events and improve between them.</p>
     <ul>
-      <li>Execute pit, scouting, and drive-team roles at each event. Software freeze is in effect: no major codebase changes until you are home.</li>
+      <li>Execute pit, scouting, and drive-team roles at each event. Software freeze is in effect — no major codebase changes until you are home (see <a href="{{ '/core-principles/' | relative_url }}">Core Principles</a>).</li>
       <li>Debrief after every event; fix top issues before the next one.</li>
       <li>Pursue awards (e.g., Impact, Engineering Inspiration) with the business team.</li>
       <li>Track ranking points and qualification status.</li>
