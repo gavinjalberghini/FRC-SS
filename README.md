@@ -9,6 +9,8 @@ robotics team**. It's meant to be a living, team-editable home for:
   patterns, and why this team uses technical chairs with adults filling gaps.
 - **Decision-Making Guide** (`/decision-making/`) — robot-level calls, module
   constraints, veteran calls inside a task, and out-of-band process.
+- **Technical Principles** (`/technical-principles/`) — declarative takes
+  for each competency (Programming, Mechanical, Electrical to start).
 - **Team Contract** (`/contract/`) — conduct, commitment, and safety expectations.
 - **Season Roadmap** (`/roadmap/`) — a phase-by-phase plan for the year.
 - **Learning Hub** (`/learning/`) — role-based learning tickets for every member.
@@ -34,6 +36,7 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 │   ├── org-chart.md       #   Org chart
 │   ├── staffing-leadership.md  #   How we staff leadership
 │   ├── decision-making.md #   How we decide
+│   ├── technical-principles.md #   Trade principles
 │   ├── contract.md        #   Team contract
 │   ├── roadmap.md         #   Season roadmap
 │   └── learning/          #   Learning hub + per-role tracks
