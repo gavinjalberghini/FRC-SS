@@ -55,7 +55,9 @@ respected, and able to do their best work.
 Holding a Veteran or Lead chair is extra trust. These rules are **in addition
 to** everything above. How those chairs are staffed is in
 [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}); what
-they owe the team is on the [Org Chart]({{ '/org-chart/' | relative_url }}).
+they owe the team is on the [Org Chart]({{ '/org-chart/' | relative_url }})
+and in
+[Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}).
 
 - **No outstanding school disciplinary actions** for the current year. That is
   the baseline. A student may **appeal** for an exemption based on the

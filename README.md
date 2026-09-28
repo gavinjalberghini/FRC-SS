@@ -7,6 +7,9 @@ robotics team**. It's meant to be a living, team-editable home for:
 - **Org Chart** (`/org-chart/`) — roles, responsibilities, and structure.
 - **How We Staff Leadership** (`/staffing-leadership/`) — four leadership
   patterns, and why this team uses technical chairs with adults filling gaps.
+- **Leadership Responsibilities** (`/leadership-responsibilities/`) — what a
+  Lead owes: the trade's updates, succession and training, the bridge to
+  adults, and the thirteen behaviors of a high-trust leader.
 - **Decision-Making Guide** (`/decision-making/`) — robot-level calls, module
   constraints, veteran calls inside a task, and out-of-band process.
 - **Core Principles** (`/core-principles/`) — what each competency holds
@@ -35,6 +38,7 @@ infrastructure (layout, styling, config, tooling). Pages render at their
 │   ├── mission.md         #   Mission & values
 │   ├── org-chart.md       #   Org chart
 │   ├── staffing-leadership.md  #   How we staff leadership
+│   ├── leadership-responsibilities.md  #   What a Lead owes
 │   ├── decision-making.md #   How we decide
 │   ├── core-principles.md #   Core principles by trade
 │   ├── contract.md        #   Team contract

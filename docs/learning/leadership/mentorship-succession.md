@@ -24,7 +24,11 @@ Pipeline idea is simpler for FRC: you move from **doing**, to
 **delegating** (ticket 6), to **developing** — teaching judgment so
 someone else can decide, run the 15-minute standup, and eventually
 develop the next person. Senior leadership lives in that third stage.
-Your highlight reel is the wrong scoreboard.
+Your highlight reel is the wrong scoreboard. The chair's duty —
+training in person, training written down, and Veterans doing the same
+work — is on
+[Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}).
+This ticket is how you practice it.
 
 You already have a RACI that should not have you as A on every line, a
 stack of Leadership notes, a used meeting agenda, a feedback
@@ -163,6 +167,8 @@ conversation, not in a web form.
 - [About FIRST](https://www.firstinspires.org/about)
 - [Programming: Code Review & Build-Season Leadership](../../programming/code-review-leadership/)
   — technical succession analog, optional
+- [Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }})
+  — the chair's duty: communication, succession, and the bridge to adults
 
 ## Notes
 

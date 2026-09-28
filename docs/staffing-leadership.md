@@ -126,9 +126,12 @@ they are ready for; adults fill empty ones and hold veto.
 - Do not leave an empty chair. Combining two trades is only for seasons when
   that chair should not exist, not as a way to avoid the adult sitting in it.
 
-See the [Org Chart]({{ '/org-chart/' | relative_url }}) for the chairs
-themselves, and the [Decision-Making Guide]({{ '/decision-making/' | relative_url }})
-for how those people decide.
+See the [Org Chart]({{ '/org-chart/' | relative_url }}) for the chairs,
+[Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }})
+for what the person in the chair owes — communication, succession, and
+the bridge to adults — and the
+[Decision-Making Guide]({{ '/decision-making/' | relative_url }}) for how
+those people decide.
 
 <div class="callout">
   <div class="callout-icon">🧭</div>
