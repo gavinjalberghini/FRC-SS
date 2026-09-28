@@ -163,3 +163,7 @@ and show it to a mentor.
 - The next ticket, [Delegation & Accountability](../delegation-accountability/),
   is how those action items leave your hands without leaving your
   follow-up.
+- A standup is not the trade update. The person in the chair still
+  writes what the trade did, including after a meeting they missed.
+  That duty is on
+  [Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}).

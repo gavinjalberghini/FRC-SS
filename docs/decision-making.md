@@ -13,7 +13,9 @@ decision is made through this process, **everyone is expected to respect it** â€
 see the [Team Contract]({{ '/contract/' | relative_url }}). Who sits in the
 chairs is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url }}).
 What each tier owns day to day is on the
-[Org Chart]({{ '/org-chart/' | relative_url }}).
+[Org Chart]({{ '/org-chart/' | relative_url }}). What a Lead owes between
+meetings is in
+[Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}).
 
 ## The cascade
 

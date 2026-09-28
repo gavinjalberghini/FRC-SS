@@ -141,22 +141,41 @@ chosen is in [How We Staff Leadership]({{ '/staffing-leadership/' | relative_url
 - Facilitate the success of others: teach, unblock, assign, and coordinate
   inside the trade.
 - Own the trade's quality, standards, and direction for the season.
+- **Make the trade's communication available.** Talk to the people
+  actually doing the work and write the update down — Slack, or a
+  ticket, whichever place this team treats as standard. If you are not
+  in the room, you still own that update: follow up with the students
+  who were there, and ask the adult who was present only when those
+  students cannot give you the picture.
+- **Build the trade past this season.** Train new members yourself,
+  keep the training material current, and put Veterans on that same
+  work. The chair exists so the skill survives graduation.
+- **Be the bridge, and the first follower.** Carry student concerns to
+  adults. When adults set a requirement, take it up in public so the
+  trade has someone to follow.
 - Clear the [contract]({{ '/contract/' | relative_url }}) bar for roles of
   responsibility: no outstanding school disciplinary actions this year
   (appeals go to the **head teacher**), and grades that stay at the
   standard. The head teacher can pull the chair if school standing slips;
   mentors advise.
 
-Work-shaping is a skill of its own. This page names the duty; it does not
-pretend to teach it.
+Work-shaping is a skill of its own. The day-to-day job — the update,
+the succession, the bridge, and the thirteen behaviors of a high-trust
+leader — is written out in
+[Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}).
+This page names the chair. That page says what the person in it owes.
 
 ## Student Leadership Team (co-captains)
 
 - Made up of the **Leads from every trade**. There is no single captain —
   leadership is shared, and each member is a **co-captain**.
-- Three core responsibilities: **facilitate the success of others**, **shape
-  the work** so it fits this year's team, and **assist the adults with the
-  team's decision-making**.
+- Three things the table shares: **facilitate the success of others**,
+  **shape the work** so it fits this year's team, and **assist the adults
+  with the team's decision-making**.
+- Each co-captain also owes the duties in
+  [Leadership Responsibilities]({{ '/leadership-responsibilities/' | relative_url }}):
+  a written picture of their trade, training that outlasts them, and a
+  bridge that carries concerns up and follows through in public.
 - **Student-driven, but not unilateral.** The team being student-driven does *not*
   give students the authority to make decisions without adult insight. Significant
   calls are made with mentors in the loop — see the

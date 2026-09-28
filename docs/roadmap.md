@@ -19,7 +19,7 @@ breaks the year into phases so the team always knows what comes next.
     <ul>
       <li>Recruit members. Each person picks a <a href="{{ '/org-chart/' | relative_url }}">trade</a> and starts that Learning Hub track — we do not "assign subteams."</li>
       <li>Sign the <a href="{{ '/contract/' | relative_url }}">team contract</a>. Run safety and tool training.</li>
-      <li><a href="{{ '/staffing-leadership/' | relative_url }}">Interview</a> Lead chairs. Adults select. If a chair has no ready student, an adult sits in it.</li>
+      <li><a href="{{ '/staffing-leadership/' | relative_url }}">Interview</a> Lead chairs. Adults select. If a chair has no ready student, an adult sits in it. The person in the chair starts the <a href="{{ '/leadership-responsibilities/' | relative_url }}">job</a>: a written trade update, a named successor, and training Veterans help deliver.</li>
       <li>Complete training projects (e.g., a practice drivetrain, intro to CAD/code).</li>
       <li>Confirm budget, sponsors, and the event registration plan. Unbudgeted spend later is an adult call.</li>
     </ul>
@@ -105,7 +105,7 @@ breaks the year into phases so the team always knows what comes next.
       <li>Run a full-season retrospective: what to keep, drop, and change.</li>
       <li>Attend or host offseason events to develop new drivers and members.</li>
       <li>Update this playbook and documentation while it's fresh.</li>
-      <li>Hand off chairs: interview next year's Leads, grow Veterans into candidates, and keep an adult in any seat that is not ready.</li>
+      <li>Hand off chairs: interview next year's Leads, grow Veterans into candidates, write down the training the next Lead will need, and keep an adult in any seat that is not ready. That handoff is the <a href="{{ '/leadership-responsibilities/' | relative_url }}">succession duty</a>, not a May surprise.</li>
     </ul>
   </div>
 
